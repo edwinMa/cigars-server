@@ -206,11 +206,7 @@ function createEvent(date, time, field, opponent, result, note)
 function createSchedule2016()
 {
     var events = [
-        // createEvent("Sep 12, 2015", "1 PM", "North Cobb", "Cherokees", "L 6-0", "Playoff Game 2"),
-        createEvent("Feb 28", "TBD", "TBD", "TBD", "", "Practice"),
-        createEvent("March 6", "TBD", "TBD", "TBD", "", "Practice"),
-        createEvent("March 13", "TBD", "TBD", "TBD", "", "Scrimmage/Practice"),
-        createEvent("March 20", "TBD", "TBD", "TBD", "", "Opening Day"),
+        createEvent("March 20", "Opening Day", "TBD", "TBD", "", "Opening Day"),
         createEvent("March 27", "TBD", "TBD", "TBD", "", "Easter")
     ];
 
