@@ -206,7 +206,7 @@ function createEvent(date, time, field, opponent, result, note)
 function createSchedule2016()
 {
     var events = [
-        createEvent("March 20", "Opening Day", "TBD", "TBD", "", "Opening Day"),
+        createEvent("March 20", "TBD", "TBD", "TBD", "", "Opening Day"),
         createEvent("March 27", "TBD", "TBD", "TBD", "", "Easter")
     ];
 
