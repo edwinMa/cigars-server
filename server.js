@@ -179,7 +179,7 @@ function Locations()
 /*
  ** function to create a schedule item
  */
-function Event(date, time, field, opponent, result, note)
+function Event(date, time, field, opponent, result, note, eviteURL)
 {
     this.date = date;
     this.time = time;
@@ -187,9 +187,10 @@ function Event(date, time, field, opponent, result, note)
     this.field = field;
     this.result = result;
     this.note = note;
+    this.eviteURL = eviteURL;
 }
 
-function createEvent(date, time, field, opponent, result, note)
+function createEvent(date, time, field, opponent, result, note, eviteURL)
 {
     return {
         date: date,
@@ -197,7 +198,8 @@ function createEvent(date, time, field, opponent, result, note)
         opponent: opponent,
         field: field,
         result: result,
-        note: note
+        note: note,
+        eviteURL: eviteURL
     };
 }
 
@@ -206,7 +208,7 @@ function createEvent(date, time, field, opponent, result, note)
 function createSchedule2016()
 {
     var events = [
-        createEvent("April 3", "TBD", "TBD", "Opening Day", "", "Opening Day")
+        createEvent("April 3", "TBD", "TBD", "Opening Day", "", "Opening Day", "http://evite.me/unpkBYxZS3")
     ];
 
     //debug (events[2].getNote());
