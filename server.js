@@ -366,12 +366,12 @@ function createRoster ()
                 // new Player ("Brad May", "May", "6", "IF/OF/C", "", "R", "R", "", ""),
                 new Player ("Blake Bailey", "Bailey", "5", "OF", "", "R", "R", "", ""),
                 new Player ("Tony Plagman", "Plagman", "26", "OF/1B/P", "", "R", "R", "", ""),
-                new Player ("Marcus Grimaldi", "Gramaldi", "XX", "SS/3B/2B", "", "R", "R", "", ""),
-                new Player ("Roman Grimaldi", "Gramaldi", "XX", "OF/IF", "", "R", "L", "", ""),
-                new Player ("Brae Wright", "Wright", "XX", "P/OF/1B", "", "L", "L", "", ""),
-                new Player ("Phil Lucas", "Lucas", "XX", "P/OF", "", "R", "R", "", ""),
-                new Player ("Chad Lambert", "Lambert", "XX", "IF/P", "", "R", "R", "", ""),
-                new Player ("James Little", "Little", "XX", "C", "", "R", "R", "", "")
+                new Player ("Marcus Grimaldi", "Gramaldi", "22", "SS/3B/2B", "Johns Creek, GA", "R", "R", "Master of Puppets - Metallica", ""),
+                new Player ("Roman Grimaldi", "Gramaldi", "36", "OF/IF", "", "R", "L", "", ""),
+                new Player ("Brae Wright", "Wright", "45", "P/OF/1B", "", "L", "L", "", ""),
+                new Player ("Phil Lucas", "Lucas", "50", "P/OF", "", "R", "R", "", ""),
+                new Player ("Chad Lambert", "Lambert", "23", "IF/P", "", "R", "R", "", ""),
+                new Player ("James Little", "Little", "3", "C", "", "R", "R", "", "")
                 // new Player ("Stephen Dodson", "Dodson", "26", "P/IF/OF", "", "R", "R", "", ""),
                 // new Player ("Jeff Downer", "Downer", "27", "IF/C", "", "R", "R", "", ""),
                 // new Player ("Cash Collins", "Collins", "4", "P/OF", "", "L", "L", "", "images/players/4.jpg"),
