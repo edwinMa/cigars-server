@@ -208,7 +208,16 @@ function createEvent(date, time, field, opponent, result, note, eviteURL)
 function createSchedule2016()
 {
     var events = [
-        createEvent("April 3", "TBD", "TBD", "Opening Day", "", "Opening Day", "http://evite.me/unpkBYxZS3")
+        createEvent("April 3", "12 PM", "Shamrock", "Reds", "", "Opening Day", "http://evite.me/unpkBYxZS3"),
+        createEvent("April 10", "12 PM", "Shamrock", "@Dragons", "", "", ""),
+        createEvent("April 17", "---", "Shamrock", "Barracudas", "", "", ""),
+        createEvent("April 24", "---", "Shamrock", "@Rangers", "", "", ""),
+        createEvent("May 1", "---", "Shamrock", "Rangers", "", "", ""),
+        createEvent("May 8", "", "", "No Game", "", "Mother's Day", ""),
+        createEvent("May 15", "---", "North Cobb", "@Cherokees", "", "", ""),
+        createEvent("May 22", "---", "Shamrock", "@Reds", "", "", ""),
+        createEvent("May 8", "", "", "No Game", "", "Memorial Day", ""),
+        createEvent("June 6", "---", "Shamrock", "@Barracudas", "", "", "")
     ];
 
     //debug (events[2].getNote());
@@ -368,10 +377,10 @@ function createRoster ()
                 new Player ("Tony Plagman", "Plagman", "26", "OF/1B/P", "", "L", "L", "", ""),
                 new Player ("Marcus Grimaldi", "Gramaldi", "39", "SS/3B/2B", "Johns Creek, GA", "R", "R", "Master of Puppets - Metallica", ""),
                 new Player ("Roman Grimaldi", "Gramaldi", "22", "OF", "", "R", "L", "", ""),
-                new Player ("Brae Wright", "Wright", "45", "P/OF/1B", "", "L", "L", "", ""),
+                new Player ("Brae Wright", "Wright", "45", "P/OF/1B", "Southaven, MS", "L", "L", "", ""),
                 new Player ("Phil Lucas", "Lucas", "50", "P/OF", "", "R", "R", "", ""),
                 new Player ("Chad Lambert", "Lambert", "23", "SS/2B/P", "", "R", "R", "", ""),
-                new Player ("James Little", "Little", "3", "C", "", "R", "R", "", "")
+                new Player ("James Little", "Little", "3", "C", "Farmers Branch, TX", "R", "R", "", "Shades of Gray - Robert Earl Keen")
                 // new Player ("Stephen Dodson", "Dodson", "26", "P/IF/OF", "", "R", "R", "", ""),
                 // new Player ("Jeff Downer", "Downer", "27", "IF/C", "", "R", "R", "", ""),
                 // new Player ("Cash Collins", "Collins", "4", "P/OF", "", "L", "L", "", "images/players/4.jpg"),
