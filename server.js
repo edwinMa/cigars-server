@@ -208,16 +208,16 @@ function createEvent(date, time, field, opponent, result, note, eviteURL)
 function createSchedule2016()
 {
     var events = [
-        createEvent("April 3", "12 PM", "Shamrock", "Reds", "", "Opening Day", "http://evite.me/unpkBYxZS3"),
-        createEvent("April 10", "12 PM", "Shamrock", "@Dragons", "", "", ""),
-        createEvent("April 17", "---", "Shamrock", "Barracudas", "", "", ""),
-        createEvent("April 24", "---", "Shamrock", "@Rangers", "", "", ""),
-        createEvent("May 1", "---", "Shamrock", "Rangers", "", "", ""),
+        createEvent("April 3", "12 PM", "Druid Hills Middle", "Reds", "", "Opening Day", "http://evite.me/unpkBYxZS3"),
+        createEvent("April 10", "12 PM", "Druid Hills Middle", "@Dragons", "", "", ""),
+        createEvent("April 17", "---", "Druid Hills Middle", "Barracudas", "", "", ""),
+        createEvent("April 24", "---", "Druid Hills Middle", "@Rangers", "", "", ""),
+        createEvent("May 1", "---", "Druid Hills Middle", "Rangers", "", "", ""),
         createEvent("May 8", "", "", "No Game", "", "Mother's Day", ""),
         createEvent("May 15", "---", "North Cobb", "@Cherokees", "", "", ""),
-        createEvent("May 22", "---", "Shamrock", "@Reds", "", "", ""),
+        createEvent("May 22", "---", "Druid Hills Middle", "@Reds", "", "", ""),
         createEvent("May 8", "", "", "No Game", "", "Memorial Day", ""),
-        createEvent("June 6", "---", "Shamrock", "@Barracudas", "", "", "")
+        createEvent("June 6", "---", "Druid Hills Middle", "@Barracudas", "", "", "")
     ];
 
     //debug (events[2].getNote());
