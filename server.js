@@ -224,14 +224,14 @@ function createSchedule2016()
         createEvent("July 3", "", "", "No Game", "", "4th of July Weekend", ""),
         createEvent("July 10", "12 PM", "Lakeside", "@Mudcats", "", "", ""),
         createEvent("July 17", "12 PM", "Druid Hills Middle", "Dragons", "", "", ""),
-        createEvent("July 24", "", "", "", "", "BYE", ""),
+        createEvent("July 24", "", "", "No Game", "", "BYE", ""),
         createEvent("July 31", "12 PM", "South Gwinett", "Raw Dawgs", "", "", ""),
         createEvent("Aug 7", "12 PM", "Druid Hills Middle", "@Titans", "", "", ""),
         createEvent("Aug 14", "12 PM", "Druid Hills Middle", "@Cobb Red Sox", "", "", ""),
         createEvent("Aug 21", "12 PM", "Druid Hills Middle", "@Bandits", "", "", ""),
         createEvent("Aug 28", "12 PM", "Druid Hills Middle", "Dragons", "", "", ""),
         createEvent("Sept 4", "", "", "No Game", "", "Labor Day Weekend", ""),
-        createEvent("Sept 11", "", "", "BYE", "", "", "")
+        createEvent("Sept 11", "", "", "No Game", "", "BYE", "")
     ];
 
     //debug (events[2].getNote());
