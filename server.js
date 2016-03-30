@@ -231,7 +231,7 @@ function createSchedule2016()
         createEvent("Aug 21", "12 PM", "Druid Hills Middle", "@Bandits", "", "", ""),
         createEvent("Aug 28", "12 PM", "Druid Hills Middle", "Dragons", "", "", ""),
         createEvent("Sept 4", "", "", "No Game", "", "Labor Day Weekend", ""),
-        createEvent("Sept 11", "", "", "BYE", "", "")
+        createEvent("Sept 11", "", "", "BYE", "", "", "")
     ];
 
     //debug (events[2].getNote());
