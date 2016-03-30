@@ -210,14 +210,28 @@ function createSchedule2016()
     var events = [
         createEvent("April 3", "12 PM", "Druid Hills Middle", "Reds", "", "Opening Day", "http://evite.me/unpkBYxZS3"),
         createEvent("April 10", "12 PM", "Druid Hills Middle", "@Dragons", "", "", ""),
-        createEvent("April 17", "---", "Druid Hills Middle", "Barracudas", "", "", ""),
-        createEvent("April 24", "---", "Druid Hills Middle", "@Rangers", "", "", ""),
-        createEvent("May 1", "---", "Druid Hills Middle", "Rangers", "", "", ""),
+        createEvent("April 17", "12 PM", "Druid Hills Middle", "Barracudas", "", "", ""),
+        createEvent("April 24", "12 PM", "Druid Hills Middle", "@Rangers", "", "", ""),
+        createEvent("May 1", "12 PM", "Druid Hills Middle", "Rangers", "", "", ""),
         createEvent("May 8", "", "", "No Game", "", "Mother's Day", ""),
-        createEvent("May 15", "---", "North Cobb", "@Cherokees", "", "", ""),
-        createEvent("May 22", "---", "Druid Hills Middle", "@Reds", "", "", ""),
-        createEvent("May 8", "", "", "No Game", "", "Memorial Day", ""),
-        createEvent("June 6", "---", "Druid Hills Middle", "@Barracudas", "", "", "")
+        createEvent("May 15", "12 PM", "North Cobb", "@Cherokees", "", "", ""),
+        createEvent("May 22", "12 PM", "Druid Hills Middle", "@Reds", "", "", ""),
+        createEvent("May 29", "", "", "No Game", "", "Memorial Day", ""),
+        createEvent("June 5", "12 PM", "Druid Hills Middle", "@Barracudas", "", "", ""),
+        createEvent("June 12", "12 PM", "North Cobb", "Cherokees", "", "", ""),
+        createEvent("June 19", "12 PM", "Lakeside", "Mudcats", "", "", ""),
+        createEvent("June 26", "12 PM", "Druid Hills Middle", "Rockies", "", "", ""),
+        createEvent("July 3", "", "", "No Game", "", "4th of July Weekend", ""),
+        createEvent("July 10", "12 PM", "Lakeside", "@Mudcats", "", "", ""),
+        createEvent("July 17", "12 PM", "Druid Hills Middle", "Dragons", "", "", ""),
+        createEvent("July 24", "", "", "", "", "BYE", ""),
+        createEvent("July 31", "12 PM", "South Gwinett", "Raw Dawgs", "", "", ""),
+        createEvent("Aug 7", "12 PM", "Druid Hills Middle", "@Titans", "", "", ""),
+        createEvent("Aug 14", "12 PM", "Druid Hills Middle", "@Cobb Red Sox", "", "", ""),
+        createEvent("Aug 21", "12 PM", "Druid Hills Middle", "@Bandits", "", "", ""),
+        createEvent("Aug 28", "12 PM", "Druid Hills Middle", "Dragons", "", "", ""),
+        createEvent("Sept 4", "", "", "No Game", "", "Labor Day Weekend", ""),
+        createEvent("Sept 11", "", "", "BYE", "", "")
     ];
 
     //debug (events[2].getNote());
