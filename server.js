@@ -15,7 +15,10 @@ CigarsServer.Schedule2 = createSchedule2();
 CigarsServer.Locations = new Locations();
 CigarsServer.Roster = createRoster();
 
+CigarsServer.TeamSnapClientID = "08954858eba39d55ed4dcf070c31a4f4b0df2e8067ef716e4de94eb499959640";
 
+ 
+        
 function debug(message)
 {
     if (CigarsServer.DEBUG)
@@ -82,6 +85,15 @@ app.get('/cigarsbaseball/db', function (request, response)
     });
 })
 
+
+app.get('/cigarsbaseball/init/', function(request, response)
+{
+    debug("initializing teamSnap...");
+
+    teamSnapInitialize();
+
+    response.send("teamSnapInitialized");
+});
 
 
 app.get('/cigarsbaseball/fields/', function(request, response)
@@ -389,7 +401,7 @@ function createRoster ()
                 // new Player ("Brad May", "May", "6", "IF/OF/C", "", "R", "R", "", ""),
                 new Player ("Blake Bailey", "Bailey", "5", "OF", "", "R", "R", "", ""),
                 new Player ("Tony Plagman", "Plagman", "26", "OF/1B/P", "", "L", "L", "", ""),
-                new Player ("Marcus Grimaldi", "Gramaldi", "39", "SS/3B/2B", "Johns Creek, GA", "R", "R", "Master of Puppets - Metallica", ""),
+                new Player ("Marcus Grimaldi", "Gramaldi", "20", "SS/3B/2B", "Johns Creek, GA", "R", "R", "Master of Puppets - Metallica", ""),
                 new Player ("Roman Grimaldi", "Gramaldi", "22", "OF", "", "R", "L", "", ""),
                 new Player ("Brae Wright", "Wright", "45", "P/OF/1B", "Southaven, MS", "L", "L", "", ""),
                 new Player ("Phil Lucas", "Lucas", "50", "P/OF", "", "R", "R", "", ""),
@@ -410,6 +422,47 @@ function createRoster ()
             return (players);
         }
     }; // end return object
+}
+
+function teamSnapAuthenticate () {
+            debug ("beginning teamSnap authentication");
+            var path = 'https://auth.teamsnap.com/oauth/authorize?';
+            var responseURI = "https://edwinma.github.io/cigarsbaseball.org/stats.html";
+            var queryParams = ['client_id=' + CigarsServer.TeamSnapClientID,
+                'redirect_uri=' + responseURI, // window.location,
+                'scope=' + "read",
+                'response_type=token'];
+            var query = queryParams.join('&');
+            var url = path + query;
+            debug ("team snap auth URL: " + url);
+            alert(url);
+            window.location.replace(url);
+}  
+
+function teamSnapInitialize()
+{
+            debug ("initializing teamsnap w/ id");
+            teamsnap.init(CigarsServer.TeamSnapClientID);
+
+            // start session
+            if (teamsnap.hasSession()) {
+                teamsnap.auth();
+                debug ("teamsnap has session, and authorized");
+                teamsnap.loadCollections(function(err) {
+                    if (err) {
+                        alert('Error loading TeamSnap SDK');
+                        return;
+                    }
+                    teamsnap.loadTeams(onTeamsLoad);
+                });
+            }
+            else
+            {
+                // need to establish a new session
+                debug ("need new teamsnap session");
+                // teamSnapEstablishSession();
+                teamSnapAuthenticate();
+            }
 }
 
 
