@@ -6,7 +6,8 @@ var app = express();
 var pg = require('pg');
 
 // setup teamsnap
-var teamsnap = require('./teamsnap.js');
+//var teamsnap = require('teamsnap.js');
+var TeamSnap = require('./teamsnap').TeamSnap;
 
 // constants
 CigarsServer = {};
