@@ -5,6 +5,9 @@ var app = express();
 // setup postgress DB
 var pg = require('pg');
 
+// setup teamsnap
+var teamsnap = require('teamsnap.js');
+
 // constants
 CigarsServer = {};
 CigarsServer.DEBUG = true;
