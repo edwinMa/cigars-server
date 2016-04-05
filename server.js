@@ -406,7 +406,7 @@ function createRoster ()
                 new Player ("Blake Bailey", "Bailey", "5", "OF", "", "R", "R", "", ""),
                 new Player ("Tony Plagman", "Plagman", "26", "OF/1B/P", "", "L", "L", "", ""),
                 new Player ("Marcus Grimaldi", "Gramaldi", "20", "SS/3B/2B", "Johns Creek, GA", "R", "R", "Master of Puppets - Metallica", ""),
-                new Player ("Roman Grimaldi", "Gramaldi", "22", "OF", "", "R", "L", "", ""),
+                new Player ("Roman Grimaldi", "Gramaldi", "7", "OF", "", "R", "L", "", ""),
                 new Player ("Brae Wright", "Wright", "45", "P/OF/1B", "Southaven, MS", "L", "L", "", ""),
                 new Player ("Phil Lucas", "Lucas", "50", "P/OF", "", "R", "R", "", ""),
                 new Player ("Chad Lambert", "Lambert", "23", "SS/2B/P", "", "R", "R", "", ""),
