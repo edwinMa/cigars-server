@@ -228,7 +228,7 @@ function createSchedule2016()
         createEvent("April 10", "12 PM", "Druid Hills Middle", "@Dragons", "L 6-8", "", "http://evite.me/dyNzUb2nK2"),
         createEvent("April 17", "", "", "No Game", "", "BYE", ""),
         createEvent("April 24", "12 PM", "Druid Hills Middle", "@Rangers", "L 4-5", "", ""),
-        createEvent("May 1", "12 PM", "Druid Hills Middle", "Rangers", "", "", ""),
+        createEvent("May 1", "12 PM", "Druid Hills Middle", "Rangers", "", "L 11-9", ""),
         createEvent("May 8", "", "", "No Game", "", "Mother's Day", ""),
         createEvent("May 15", "12 PM", "North Cobb", "@Cherokees", "", "", ""),
         createEvent("May 22", "12 PM", "Druid Hills Middle", "@Reds", "", "", ""),
