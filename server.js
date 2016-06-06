@@ -233,7 +233,7 @@ function createSchedule2016()
         createEvent("May 15", "12 PM", "North Cobb", "@Cherokees", "L 5-6", "", ""),
         createEvent("May 22", "12 PM", "Druid Hills Middle", "@Reds", "W 10-1", "", ""),
         createEvent("May 29", "", "", "No Game", "", "Memorial Day", ""),
-        createEvent("June 5", "12 PM", "Druid Hills Middle", "@Barracudas", "", "", ""),
+        createEvent("June 5", "12 PM", "Druid Hills Middle", "@Barracudas", "W 5-4", "", ""),
         createEvent("June 12", "12 PM", "North Cobb", "Cherokees", "", "", ""),
         createEvent("June 19", "12 PM", "Lakeside", "Mudcats", "", "", ""),
         createEvent("June 26", "4 PM", "Dunwoody High", "Rockies", "", "", ""),
@@ -245,7 +245,7 @@ function createSchedule2016()
         createEvent("Aug 7", "12 PM", "Dunwoody Senior (Upper)", "@Titans", "", "", ""),
         createEvent("Aug 14", "12 PM", "Druid Hills Middle", "@Cobb Red Sox", "", "", ""),
         createEvent("Aug 21", "12 PM", "Druid Hills Middle", "@Bandits", "", "", ""),
-        createEvent("Aug 28", "12 PM", "Druid Hills Middle", "Dragons", "", "", ""),
+        createEvent("Aug 28", "12 PM", "Druid Hills Middle", "Dragons (18+)", "", "", ""),
         createEvent("Sept 4", "", "", "No Game", "", "Labor Day Weekend", ""),
         createEvent("Sept 11", "12 PM", "Druid Hills Middle", "Barracudas", "", "", "")
         
