@@ -223,9 +223,10 @@ function createEvent(date, time, field, opponent, result, note, eviteURL)
 // this method uses createEvent to create schedule events
 function createSchedule2016()
 {
+    // last column is for evite linke
     var events = [
-        createEvent("April 3", "12 PM", "Druid Hills Middle", "Reds", "W 8-6", "Opening Day", "http://evite.me/unpkBYxZS3"),
-        createEvent("April 10", "12 PM", "Druid Hills Middle", "@Dragons", "L 6-8", "", "http://evite.me/dyNzUb2nK2"),
+        createEvent("April 3", "12 PM", "Druid Hills Middle", "Reds", "W 8-6", "Opening Day", ""),
+        createEvent("April 10", "12 PM", "Druid Hills Middle", "@Dragons", "L 6-8", "", ""),
         createEvent("April 17", "", "", "No Game", "", "BYE", ""),
         createEvent("April 24", "12 PM", "Druid Hills Middle", "@Rangers", "L 4-5", "", ""),
         createEvent("May 1", "12 PM", "Druid Hills Middle", "Rangers", "L 11-9", "", ""),
@@ -236,7 +237,7 @@ function createSchedule2016()
         createEvent("June 5", "12 PM", "Druid Hills Middle", "@Barracudas", "W 5-4", "", ""),
         createEvent("June 12", "12 PM", "North Cobb", "Cherokees", "W 3-4", "", ""),
         createEvent("June 19", "12 PM", "Lakeside", "Mudcats", "L 6-5", "", ""),
-        createEvent("June 26", "4 PM", "Dunwoody High", "Rockies", "", "", ""),
+        createEvent("June 26", "12 PM", "Dunwoody High", "Rockies", "", "", ""),
         createEvent("July 3", "", "", "No Game", "", "4th of July Weekend", ""),
         createEvent("July 10", "12 PM", "Lakeside", "@Mudcats", "", "", ""),
         createEvent("July 17", "12 PM", "Druid Hills Middle", "Dragons", "", "", ""),
