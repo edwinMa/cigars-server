@@ -239,7 +239,7 @@ function createSchedule2016()
         createEvent("June 19", "12 PM", "Lakeside", "Mudcats", "L 6-5", "", ""),
         createEvent("June 26", "12 PM", "Druid Hills Middle", "Rockies", "W 12-6", "", ""),
         createEvent("July 3", "", "", "No Game", "", "4th of July Weekend", ""),
-        createEvent("July 10", "12 PM", "Lakeside", "@Mudcats", "", "", ""),
+        createEvent("July 10", "12 PM", "Lakeside", "@Mudcats", "W 14-2", "", ""),
         createEvent("July 17", "12 PM", "Druid Hills Middle", "Dragons", "", "", ""),
         createEvent("July 24", "", "", "No Game", "", "BYE", ""),
         createEvent("July 31", "12 PM", "South Gwinett", "Raw Dawgs", "", "", ""),
