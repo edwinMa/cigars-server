@@ -410,7 +410,7 @@ function createRoster ()
                 new Player ("Sean Lennox", "Lennox", "16", "P", "Norcross, GA", "R", "R", "Givin the Dog a Bone - AC/DC", "images/players/16.jpg"),
                 new Player ("Nathan Moreau", "Moreau", "15", "P/OF", "", "L", "L", "", ""),
                 // new Player ("Brad May", "May", "6", "IF/OF/C", "", "R", "R", "", ""),
-                new Player ("Blake Bailey", "Bailey", "5", "OF", "", "R", "R", "", ""),
+                new Player ("Justin Roberts", "Roberts", "8", "OF/IF", "", "R", "R", "", ""),
                 new Player ("Tony Plagman", "Plagman", "26", "OF/1B/P", "", "L", "L", "", ""),
                 new Player ("Marcus Grimaldi", "Gramaldi", "20", "SS/3B/2B", "Johns Creek, GA", "R", "L", "Master of Puppets - Metallica", ""),
                 new Player ("Roman Grimaldi", "Gramaldi", "7", "OF", "", "R", "L", "", ""),
