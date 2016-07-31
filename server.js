@@ -242,7 +242,7 @@ function createSchedule2016()
         createEvent("July 10", "12 PM", "Lakeside", "@Mudcats", "W 14-2", "", ""),
         createEvent("July 17", "12 PM", "South Gwinett", "Dragons", "L 5-2", "", ""),
         createEvent("July 24", "", "", "No Game", "", "BYE", ""),
-        createEvent("July 31", "4 PM", "Druid Hills Middle", "Raw Dawgs", "", "", ""),
+        createEvent("July 31", "4 PM", "Druid Hills Middle", "Raw Dawgs", "W 9-6", "", ""),
         createEvent("Aug 7", "12 PM", "Dunwoody Senior (Upper)", "@Titans", "", "", ""),
         createEvent("Aug 14", "12 PM", "Druid Hills Middle", "@Cobb Red Sox", "", "", ""),
         createEvent("Aug 21", "12 PM", "Druid Hills Middle", "@Bandits", "", "", ""),
