@@ -5,24 +5,26 @@ var app = express();
 // setup postgress DB
 var pg = require('pg');
 
+var debug = require ('./debug');
+
 // setup teamsnap
 //var teamsnap = require('teamsnap.js');
 
 
 // constants
 CigarsServer = {};
-CigarsServer.DEBUG = true;
+//CigarsServer.DEBUG = true;
 CigarsServer.ListenPort = 3000;
 CigarsServer.JSONSpacing = 4;
 CigarsServer.Schedule = createSchedule2016();
 CigarsServer.Schedule2 = createSchedule2();
-CigarsServer.Locations = new Locations();
-CigarsServer.Roster = createRoster();
+CigarsServer.Fields = require ('./fields');
+CigarsServer.Roster = require ('./roster');
 
 CigarsServer.TeamSnapClientID = "08954858eba39d55ed4dcf070c31a4f4b0df2e8067ef716e4de94eb499959640";
 
  
-        
+/*       
 function debug(message)
 {
     if (CigarsServer.DEBUG)
@@ -30,6 +32,7 @@ function debug(message)
         console.log(message);
     }
 }
+*/
 
 // Add headers
 app.use(function (req, res, next) {
@@ -104,7 +107,7 @@ app.get('/cigarsbaseball/fields/', function(request, response)
 {
     debug("requesting fields...");
 
-    var result = JSON.stringify(CigarsServer.Locations.getFields(), null, CigarsServer.JSONSpacing);
+    var result = JSON.stringify(CigarsServer.Fields.getFields(), null, CigarsServer.JSONSpacing);
 
     response.send(result);
 });
@@ -167,6 +170,7 @@ function Field (name, id, lat, long, address)
 
 }
 
+/*
 function Locations()
 {
 
@@ -191,6 +195,7 @@ function Locations()
     }
 
 }
+*/
 
 /*
  ** function to create a schedule item
@@ -373,6 +378,7 @@ function createSchedule2()
     }; // end return object
 }
 
+/*
 function Player (name, lastName, number, position, hometown, throws, bats, song, picture)
 {
     this.name = name;
@@ -437,6 +443,8 @@ function createRoster ()
         }
     }; // end return object
 }
+
+*/
 
 function teamSnapAuthenticate () {
             debug ("beginning teamSnap authentication");
