@@ -109,24 +109,6 @@ app.get('/cigarsbaseball/schedule/', function(request, response)
 });
 
 
-app.get('/cigarsbaseball/nextgame/', function(request, response)
-{
-    debug("requesting next game...");
-
-    var result = JSON.stringify(CigarsServer.Schedule.getNextGame(), null, CigarsServer.JSONSpacing);
-
-    response.send(result);
-});
-
-app.get('/cigarsbaseball/prevgame/', function(request, response)
-{
-    debug("requesting previous game...");
-
-    var result = JSON.stringify(CigarsServer.Schedule.getPrevGame(), null, CigarsServer.JSONSpacing);
-
-    response.send(result);
-});
-
 app.get('/cigarsbaseball/roster/', function(request, response)
 {
     debug("requesting roster...");
