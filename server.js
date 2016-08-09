@@ -418,6 +418,8 @@ function createRoster ()
                 new Player ("Brae Wright", "Wright", "45", "P/OF/1B", "Southaven, MS", "L", "L", "", ""),
                 new Player ("Phil Lucas", "Lucas", "50", "P/OF", "", "R", "R", "", ""),
                 new Player ("Chad Lambert", "Lambert", "23", "SS/2B/P", "", "R", "R", "", ""),
+                new Player ("Jamie Houston", "Houston", "39", "1B/OF", "", "R", "R", "", ""),
+                new Player ("Adrian Suarez", "Suarez", "4", "IF/OF", "", "R", "R", "", ""),
                 new Player ("James Little", "Little", "3", "C", "Farmers Branch, TX", "R", "R", "", "Shades of Gray - Robert Earl Keen")
                 // new Player ("Stephen Dodson", "Dodson", "26", "P/IF/OF", "", "R", "R", "", ""),
                 // new Player ("Jeff Downer", "Downer", "27", "IF/C", "", "R", "R", "", ""),
