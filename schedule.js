@@ -51,7 +51,7 @@ function schedule2016()
         createEvent("July 24", "", "", "No Game", "", "BYE", ""),
         createEvent("July 31", "4 PM", "Druid Hills Middle", "Raw Dawgs", "W 9-6", "", ""),
         createEvent("Aug 7", "12 PM", "Druid Hills Middle", "@Titans", "L 6-5", "", ""),
-        createEvent("Aug 14", "12 PM", "Druid Hills Middle", "@Cobb Red Sox", "", "", ""),
+        createEvent("Aug 14", "12 PM", "Druid Hills Middle", "@Cobb Red Sox", "W 17-6", "", ""),
         createEvent("Aug 21", "12 PM", "Druid Hills Middle", "@Bandits", "", "", ""),
         createEvent("Aug 28", "12 PM", "Druid Hills Middle", "Dragons (18+)", "", "", ""),
         createEvent("Sept 4", "", "", "No Game", "", "Labor Day Weekend", ""),
