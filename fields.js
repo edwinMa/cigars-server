@@ -13,6 +13,7 @@ function Field (name, id, lat, long, address)
 
 function Fields()
 {
+    33.8540569,-84.0075551
 
     this.fields = [
         new Field("Lakeside High School", "lakeside", 33.8453, -84.2848, "3801 Briarcliff Rd NE, Atlanta, GA 30345"),
@@ -24,6 +25,7 @@ function Fields()
         //new Field("Holy Spirit Catholic Church", "holySpirit", 33.877268, -84.411387, "4465 Northside Dr NW, Atlanta, GA 30327"),
         new Field("Lithia Springs High School", "lithiaSprings", 33.755571, -84.657863, "2520 E County Line Rd, Lithia Springs, GA 30122"),
         new Field("Dunwoody High School", "dunwoody", 33.9452548, -84.314946, "5035 Vermack Rd, Dunwoody, GA 30338"),
+        new Field("South Gwinett High School", "southGwinett", 33.8540569, -84.0075551, "2288 E Main St, Snellville, GA 30078"),
         new Field("Grand Slam Golf & Baseball", "grandSlamCage", 33.812883, -84.29490, "3352 N Druid Hills Rd, Decatur, GA 30033")
     ];
 
