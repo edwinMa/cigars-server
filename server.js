@@ -1,4 +1,5 @@
 // setup express server
+var config = require('./config.json');
 var express = require('express');
 var app = express();
 
@@ -13,14 +14,13 @@ var debug = require ('./debug');
 
 // constants
 CigarsServer = {};
-CigarsServer.ListenPort = 3000;
-CigarsServer.JSONSpacing = 4;
+CigarsServer.ListenPort = config.listenPort;
+CigarsServer.JSONSpacing = config.jsonSpacing;
 CigarsServer.Schedule = require ('./schedule');
 CigarsServer.Fields = require ('./fields');
 CigarsServer.Roster = require ('./roster');
 
-CigarsServer.TeamSnapClientID = "08954858eba39d55ed4dcf070c31a4f4b0df2e8067ef716e4de94eb499959640";
-
+CigarsServer.TeamSnapClientID = config.teamSnapClientID;
 
 // Add headers
 app.use(function (req, res, next) {
@@ -162,6 +162,7 @@ function teamSnapInitialize()
 
 
 app.listen(process.env.PORT || CigarsServer.ListenPort);
+debug ("ready and listening on port " + CigarsServer.ListenPort );
 /*
  ** END
  */
