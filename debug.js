@@ -1,10 +1,12 @@
-var DEBUG = true;
+var config = require('./config.json');
+
+var DEBUG = config.debug;
 
 debug = function (message)
 {
     if (DEBUG)
     {
-        console.log("CIGARS SERVER: " + message);
+        console.log("Cigarsbaseball Server:" + message);
     }
 };
 
