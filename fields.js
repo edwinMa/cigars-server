@@ -13,8 +13,6 @@ function Field (name, id, lat, long, address)
 
 function Fields()
 {
-    33.8540569,-84.0075551
-
     this.fields = [
         new Field("Lakeside High School", "lakeside", 33.8453, -84.2848, "3801 Briarcliff Rd NE, Atlanta, GA 30345"),
         new Field("Tucker High School", "tucker", 33.856215, -84.215753, "5036 Lavista Rd, Tucker, GA 30084"),
