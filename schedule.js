@@ -55,7 +55,7 @@ function schedule2016()
         createEvent("Aug 21", "12 PM", "Druid Hills Middle", "@Bandits", "W 11-4", "", ""),
         createEvent("Aug 28", "12 PM", "Druid Hills Middle", "Dragons (18+)", "W 18-0", "", ""),
         createEvent("Sept 4", "", "", "No Game", "", "Labor Day Weekend", ""),
-        createEvent("Sept 11", "12 PM", "Druid Hills Middle", "Barracudas", "", "", ""),
+        createEvent("Sept 11", "12 PM", "Druid Hills Middle", "Barracudas", "W 5-0", "", ""),
         createEvent("Sept 17", "12 PM", "TBD", "TBD", "", "Saturday Playoff Double Header - Round 1", ""),
         createEvent("Sept 18", "12 PM", "TBD", "TBD", "", "Playoff Game 3 If Needed - Round 1", ""),
         createEvent("Sept 24", "12 PM", "TBD", "TBD", "", "Saturday Playoff Double Header - Round 2", ""),
