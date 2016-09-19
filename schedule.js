@@ -57,12 +57,11 @@ function schedule2016()
         createEvent("Sept 4", "", "", "No Game", "", "Labor Day Weekend", ""),
         createEvent("Sept 11", "12 PM", "Druid Hills Middle", "Barracudas", "W 5-0", "", ""),
         createEvent("Sept 17", "4 PM", "Druid Hills Middle", "Rangers", "W 5-2", "Saturday Wildcard - Round 1", ""),
-        createEvent("Sept 18", "12 PM", "Osborne HS", "Dragons", "", "Semi Final Double Header Game 1", ""),
-        createEvent("Sept 18", "3 PM", "Osborne HS", "Dragons", "", "Semi Final Double Header Game 2", ""),
-        createEvent("Sept 24", "12 PM", "TBD", "TBD", "", "Saturday Playoff Double Header - Round 2", ""),
-        createEvent("Sept 25", "12 PM", "TBD", "TBD", "", "Playoff Game 3 If Needed - Round 2", ""),
-        createEvent("Oct 1", "12 PM", "TBD", "TBD", "", "Saturday Playoff Double Header - Round 3", ""),
-        createEvent("Oct 2", "12 PM", "TBD", "TBD", "", "Playoff Game 3 If Needed - Round 3", "") 
+        createEvent("Sept 18", "12 PM", "Osborne HS", "Dragons", "L 6-1", "Semi Final Game 1", ""),
+        createEvent("Sept 25", "11 AM", "Druid Hills Middle", "Dragons", "", "Semi Final Game 2", ""),
+        createEvent("Sept 25", "1 PM", "Druid Hills Middle", "Dragons", "", "Semi Final Game 3 (if necesary)", ""),
+        createEvent("Oct 1", "12 PM", "TBD", "TBD", "", "Playoff Finals Double Header", "") ,
+        createEvent("Oct 2", "12 PM", "TBD", "TBD", "", "Finals Game 3 (if needed)", "") 
     ];
 
     //debug (events[2].getNote());
