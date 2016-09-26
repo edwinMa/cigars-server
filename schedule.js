@@ -58,10 +58,7 @@ function schedule2016()
         createEvent("Sept 11", "12 PM", "Druid Hills Middle", "Barracudas", "W 5-0", "", ""),
         createEvent("Sept 17", "4 PM", "Druid Hills Middle", "Rangers", "W 5-2", "Saturday Wildcard - Round 1", ""),
         createEvent("Sept 18", "12 PM", "Osborne HS", "Dragons", "L 6-1", "Semi Final Game 1", ""),
-        createEvent("Sept 25", "11 AM", "Druid Hills Middle", "Dragons", "", "Semi Final Game 2", ""),
-        createEvent("Sept 25", "1 PM", "Druid Hills Middle", "Dragons", "", "Semi Final Game 3 (if necesary)", ""),
-        createEvent("Oct 1", "12 PM", "TBD", "TBD", "", "Playoff Finals Double Header", "") ,
-        createEvent("Oct 2", "12 PM", "TBD", "TBD", "", "Finals Game 3 (if needed)", "") 
+        createEvent("Sept 25", "11 AM", "Druid Hills Middle", "Dragons", "L 5-3", "Semi Final Game 2", "")
     ];
 
     //debug (events[2].getNote());
