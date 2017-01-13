@@ -1,6 +1,6 @@
 var debug = require ('./debug');
 
-
+/*
 var aField = {
     name: "Marcial Park",
     id: "1",
@@ -60,9 +60,8 @@ function Fields()
         return (result);
     }
 }
+*/
 
-
-/*
 function Field (name, id, lat, long, address)
 {
     this.name = name;
@@ -71,8 +70,18 @@ function Field (name, id, lat, long, address)
     this.long = long;
     this.marker = null;
     this.address = address;
-
 }
+
+Field.prototype = {
+    // set constructors 
+    constructor: Field,
+
+    // set methods
+    toString: function () {
+        return (this.name);
+    }
+};
+
 
 function Fields()
 {
@@ -90,14 +99,30 @@ function Fields()
         new Field("Grand Slam Golf & Baseball", "grandSlamCage", 33.812883, -84.29490, "3352 N Druid Hills Rd, Decatur, GA 30033")
     ];
 
+    /*
     this.getFields = function()
     {
         var result = this.fields;
         debug(result);
         return (result);
     }
+    */
 
 }
-*/
+
+Fields.prototype = {
+    // set constructors 
+    constructor: Fields,
+
+    // set methods
+    getFields: function()
+    {
+        var result = this.fields;
+        debug("getFields returning: " + result);
+
+        return (result);
+    }
+};
+
 
 module.exports = new Fields();
