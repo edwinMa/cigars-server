@@ -111,6 +111,11 @@ Stats.prototype = {
         return (this.stats.length > 0);
     },
 
+    getStats: function ()
+    {
+        return this.stats;
+    },
+
     /*
     ** adds a new data stat at given index
     */ 
