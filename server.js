@@ -2,6 +2,7 @@
 var config = require('./config.json');
 var express = require('express');
 var app = express();
+var fs = require('fs');
 
 // setup postgress DB
 var pg = require('pg');
@@ -11,7 +12,6 @@ var debug = require ('./debug');
 // setup teamsnap
 //var teamsnap = require('teamsnap.js');
 
-
 // constants
 CigarsServer = {};
 CigarsServer.ListenPort = config.listenPort;
@@ -19,6 +19,15 @@ CigarsServer.JSONSpacing = config.jsonSpacing;
 CigarsServer.Schedule = require ('./schedule');
 CigarsServer.Fields = require ('./fields');
 CigarsServer.Roster = require ('./roster');
+
+CigarsServer.Stats = require ('./stats');
+CigarsServer.StatsFile = config.statsFile;
+
+// read baseball stats file and convert each line into an element in an array
+debug ("opening statistics file: " + CigarsServer.StatsFile);
+var fileDataArray = fs.readFileSync(CigarsServer.StatsFile).toString().split("\n");
+CigarsServer.Stats.processStatsFile(fileDataArray);
+
 
 CigarsServer.TeamSnapClientID = config.teamSnapClientID;
 
@@ -108,6 +117,26 @@ app.get('/cigarsbaseball/schedule/', function(request, response)
     response.send(result);
 });
 
+app.get('/cigarsbaseball/nextgame/', function(request, response)
+{
+    debug("requesting next game...");
+
+    var game = CigarsServer.Schedule.getNextGame();
+    debug (game);
+    var result = JSON.stringify(game, null, CigarsServer.JSONSpacing);
+    response.send(result);
+});
+
+app.get('/cigarsbaseball/prevgame/', function(request, response)
+{
+    debug("requesting previous game...");
+
+    var game = CigarsServer.Schedule.getPrevGame();
+    debug (game);
+    var result = JSON.stringify(game, null, CigarsServer.JSONSpacing);
+    response.send(result);
+});
+
 
 app.get('/cigarsbaseball/roster/', function(request, response)
 {
@@ -115,6 +144,22 @@ app.get('/cigarsbaseball/roster/', function(request, response)
     var result = JSON.stringify(CigarsServer.Roster.getRoster(), null, CigarsServer.JSONSpacing);
     response.send(result);
 });
+
+app.get('/cigarsbaseball/tophitter/', function(request, response)
+{
+    debug("requesting top hitter...");
+    var result = JSON.stringify(CigarsServer.Stats.getTopHitter(), null, CigarsServer.JSONSpacing);
+    response.send(result);
+});
+
+app.get('/cigarsbaseball/toppitcher/', function(request, response)
+{
+    debug("requesting top pitcher...");
+    var result = JSON.stringify(CigarsServer.Stats.getTopPitcher(), null, CigarsServer.JSONSpacing);
+    response.send(result);
+});
+
+
 /*
  ** End JSON API Calls
  */
