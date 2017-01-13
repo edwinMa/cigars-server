@@ -145,6 +145,13 @@ app.get('/cigarsbaseball/roster/', function(request, response)
     response.send(result);
 });
 
+app.get('/cigarsbaseball/stats/', function(request, response)
+{
+    debug("requesting stats...");
+    var result = JSON.stringify(CigarsServer.Stats.getStats(), null, CigarsServer.JSONSpacing);
+    response.send(result);
+});
+
 app.get('/cigarsbaseball/tophitter/', function(request, response)
 {
     debug("requesting top hitter...");
