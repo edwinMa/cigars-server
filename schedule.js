@@ -89,6 +89,7 @@ function Schedule()
 {
     // last column is for evite link
     this.events = games2016;
+    this.year = "2016";
 }
 
 
@@ -167,6 +168,7 @@ Schedule.prototype = {
     {
         var games = this.events;
         var record = {
+            year: this.year,
             wins: 0,
             losses: 0,
             ties: 0,
