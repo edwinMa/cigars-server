@@ -88,7 +88,7 @@ function Event(date, time, field, opponent, result, note, eviteURL)
 function Schedule()
 {
     // last column is for evite link
-    this.events = games2017;
+    this.events = games2016;
 }
 
 
@@ -161,6 +161,34 @@ Schedule.prototype = {
             }
         }
         return (prevGame);
+    },
+
+    getRecord: function ()
+    {
+        var games = this.events;
+        var record = {
+            wins: 0,
+            losses: 0,
+            ties: 0,
+        };
+
+        for (var j= 0; j < games.length; j++ )
+        {
+            if (games[j].result.indexOf ("W") > -1)
+            {
+                record.wins++;
+            }
+            else if (games[j].result.indexOf ("L") > -1)
+            {
+                record.losses++;
+            }
+            else if (games[j].result.indexOf ("T") > -1)
+            {
+                record.ties++;
+            }
+
+        }
+        return record;
     }
 
 };
