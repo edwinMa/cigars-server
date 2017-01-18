@@ -2,7 +2,7 @@
 var debug = require ('./debug');
 
 var games2017 = [
-        new Event("Sept 25", "11 AM", "Druid Hills Middle", "Dragons", "L 5-3", "Semi Final Game 2", ""),
+        new Event("September 25", "11 AM", "Druid Hills Middle", "Dragons", "L 5-3", "Semi Final Game 2", ""),
         new Event ("Mar 26", "12 PM", "TBD", "TBD", "", "")
     ];
 
@@ -26,15 +26,15 @@ var games2016 = [
         new Event("July 17", "12 PM", "South Gwinett", "Dragons", "L 5-2", "", ""),
         new Event("July 24", "", "", "No Game", "", "BYE", ""),
         new Event("July 31", "4 PM", "Druid Hills Middle", "Raw Dawgs", "W 9-6", "", ""),
-        new Event("Aug 7", "12 PM", "Druid Hills Middle", "@Titans", "L 6-5", "", ""),
-        new Event("Aug 14", "12 PM", "Druid Hills Middle", "@Cobb Red Sox", "W 17-6", "", ""),
-        new Event("Aug 21", "12 PM", "Druid Hills Middle", "@Bandits", "W 11-4", "", ""),
-        new Event("Aug 28", "12 PM", "Druid Hills Middle", "Dragons (18+)", "W 18-0", "", ""),
-        new Event("Sept 4", "", "", "No Game", "", "Labor Day Weekend", ""),
-        new Event("Sept 11", "12 PM", "Druid Hills Middle", "Barracudas", "W 5-0", "", ""),
-        new Event("Sept 17", "4 PM", "Druid Hills Middle", "Rangers", "W 5-2", "Saturday Wildcard - Round 1", ""),
-        new Event("Sept 18", "12 PM", "Osborne HS", "Dragons", "L 6-1", "Semi Final Game 1", ""),
-        new Event("Sept 25", "11 AM", "Druid Hills Middle", "Dragons", "L 5-3", "Semi Final Game 2", ""),
+        new Event("August 7", "12 PM", "Druid Hills Middle", "@Titans", "L 6-5", "", ""),
+        new Event("August 14", "12 PM", "Druid Hills Middle", "@Cobb Red Sox", "W 17-6", "", ""),
+        new Event("August 21", "12 PM", "Druid Hills Middle", "@Bandits", "W 11-4", "", ""),
+        new Event("August 28", "12 PM", "Druid Hills Middle", "Dragons (18+)", "W 18-0", "", ""),
+        new Event("September 4", "", "", "No Game", "", "Labor Day Weekend", ""),
+        new Event("September 11", "12 PM", "Druid Hills Middle", "Barracudas", "W 5-0", "", ""),
+        new Event("September 17", "4 PM", "Druid Hills Middle", "Rangers", "W 5-2", "Saturday Wildcard - Round 1", ""),
+        new Event("September 18", "12 PM", "Osborne HS", "Dragons", "L 6-1", "Semi Final Game 1", ""),
+        new Event("September 25", "11 AM", "Druid Hills Middle", "Dragons", "L 5-3", "Semi Final Game 2", ""),
         new Event("March 2017", "12 PM", "T B D", "T B D", "", "", "")
 ];
 
