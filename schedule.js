@@ -3,7 +3,7 @@ var debug = require ('./debug');
 
 var games2017 = [
         new Event("September 25", "11 AM", "Druid Hills Middle", "Dragons", "L 5-3", "Semi Final Game 2", ""),
-        new Event ("Mar 26", "12 PM", "TBD", "TBD", "", "")
+        new Event ("March 26", "12 PM", "TBD", "TBD", "", "")
     ];
 
 
@@ -35,7 +35,7 @@ var games2016 = [
         new Event("September 17", "4 PM", "Druid Hills Middle", "Rangers", "W 5-2", "Saturday Wildcard - Round 1", ""),
         new Event("September 18", "12 PM", "Osborne HS", "Dragons", "L 6-1", "Semi Final Game 1", ""),
         new Event("September 25", "11 AM", "Druid Hills Middle", "Dragons", "L 5-3", "Semi Final Game 2", ""),
-        new Event("March 2017", "12 PM", "T B D", "T B D", "", "", "")
+        new Event("March 26, 2017", "T B D", "T B D", "T B D", "", "", "")
 ];
 
 var games2015 = [
