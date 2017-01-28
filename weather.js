@@ -1,3 +1,4 @@
+/*
 var request = require ('request');
 var config = require('./config.json');
 var debug = require ('./debug');
@@ -99,3 +100,4 @@ Weather.prototype = {
 }
 
 module.exports = new Weather();
+*/
