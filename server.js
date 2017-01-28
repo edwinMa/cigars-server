@@ -19,6 +19,8 @@ CigarsServer.JSONSpacing = config.jsonSpacing;
 CigarsServer.Schedule = require ('./schedule');
 CigarsServer.Fields = require ('./fields');
 CigarsServer.Roster = require ('./roster');
+CigarsServer.Weather = require ('./weather');
+
 
 CigarsServer.Stats = require ('./stats');
 CigarsServer.StatsFile = config.statsFile;
@@ -172,6 +174,32 @@ app.get('/cigarsbaseball/toppitcher/', function(request, response)
     debug("requesting top pitcher...");
     var result = JSON.stringify(CigarsServer.Stats.getTopPitcher(), null, CigarsServer.JSONSpacing);
     response.send(result);
+});
+
+/*
+** /cigarsbaseball/playerstats?firstname=John&lastname=Gentry
+*/
+app.get('/cigarsbaseball/playerstats/', function(request, response)
+{
+    var firstName = request.param('firstname');  
+    var lastName = request.param('lastname'); 
+    var playerName = firstName.toLowerCase() + " " + lastName.toLowerCase();
+    debug("requesting player stats for " + playerName);
+    var result = JSON.stringify(CigarsServer.Stats.getPlayerStats(playerName), null, CigarsServer.JSONSpacing);
+    response.send(result);
+    
+});
+
+
+app.get('/cigarsbaseball/forecast/', function(request, response)
+{
+    debug("requesting game weather forecast...");
+    CigarsServer.Weather.getWeekendForcast(function (data){
+        debug("returning game weather forecast...");
+        var result = JSON.stringify(data, null, CigarsServer.JSONSpacing);
+        response.send (result);
+    });
+    
 });
 
 
