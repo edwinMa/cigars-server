@@ -181,12 +181,19 @@ app.get('/cigarsbaseball/toppitcher/', function(request, response)
 */
 app.get('/cigarsbaseball/playerstats/', function(request, response)
 {
-    var firstName = request.param('firstname');  
-    var lastName = request.param('lastname'); 
-    var playerName = firstName.toLowerCase() + " " + lastName.toLowerCase();
-    debug("requesting player stats for " + playerName);
-    var result = JSON.stringify(CigarsServer.Stats.getPlayerStats(playerName), null, CigarsServer.JSONSpacing);
-    response.send(result);
+    var firstName = request.params('firstname');  
+    var lastName = request.params('lastname'); 
+    if (firstName = null && lastName != null)
+    {
+        var playerName = firstName.toLowerCase() + " " + lastName.toLowerCase();
+        debug("requesting player stats for " + playerName);
+        var result = JSON.stringify(CigarsServer.Stats.getPlayerStats(playerName), null, CigarsServer.JSONSpacing);
+        response.send(result);
+    }
+    else
+    {
+        debug ("playerstats: invalid input parameters");
+    }
     
 });
 
