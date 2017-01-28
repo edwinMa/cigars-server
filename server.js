@@ -181,8 +181,8 @@ app.get('/cigarsbaseball/toppitcher/', function(request, response)
 */
 app.get('/cigarsbaseball/playerstats/', function(request, response)
 {
-    var firstName = request.params('firstname');  
-    var lastName = request.params('lastname'); 
+    var firstName = request.param('firstname');  
+    var lastName = request.param('lastname'); 
     if (firstName = null && lastName != null)
     {
         var playerName = firstName.toLowerCase() + " " + lastName.toLowerCase();
