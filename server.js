@@ -181,9 +181,16 @@ app.get('/cigarsbaseball/toppitcher/', function(request, response)
 */
 app.get('/cigarsbaseball/playerstats/', function(request, response)
 {
-    var firstName = request.param('firstname');  
-    var lastName = request.param('lastname'); 
-    if (firstName = null && lastName != null)
+    debug (request.query.firstname);
+    debug (request.query.lastname);
+
+    // var firstName = request.param('firstname');  
+    // var lastName = request.param('lastname'); 
+
+    var firstName = request.query.firstname; 
+    var lastName = request.query.lastname;
+
+    if (firstName != null && lastName != null)
     {
         var playerName = firstName.toLowerCase() + " " + lastName.toLowerCase();
         debug("requesting player stats for " + playerName);
