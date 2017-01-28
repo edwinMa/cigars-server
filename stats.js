@@ -10,7 +10,7 @@ function BaseballStat (statArray)
 {
     // /Player,GP,AB,R,1B,2B,3B,HR,H,BB,HBP,TB,AVG,OBP,SLG,OPS,SF,RBI,SO,SB,CS
     var index = 0; 
-    this.player = statArray[index++].slice (0, -1); // file includes blank space after last name so slice it off
+    this.player = (statArray[index++].slice (0, -1)).toLowerCase(); // file includes blank space after last name so slice it off
     this.gamesPlayed = statArray[index++];
     this.atBats = statArray[index++];
     this.runs = statArray[index++];
@@ -180,7 +180,8 @@ Stats.prototype = {
 
     getPlayerStats: function (playerName)
     {
-        var playerStats = null;
+        var playerStats = {"player":"not_found"};
+
         var numPlayers = this.stats.length;
         for (var j = 0; j < numPlayers; j++)
         {
