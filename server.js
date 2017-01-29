@@ -204,7 +204,7 @@ app.get('/cigarsbaseball/playerstats/', function(request, response)
     
 });
 
-/*
+
 app.get('/cigarsbaseball/forecast/', function(request, response)
 {
     debug("requesting game weather forecast...");
@@ -215,7 +215,7 @@ app.get('/cigarsbaseball/forecast/', function(request, response)
     });
     
 });
-*/
+
 
 /*
  ** End JSON API Calls
