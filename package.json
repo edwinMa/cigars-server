@@ -1,6 +1,6 @@
 {
   "name": "cigarsBaseball",
-  "version": "1.0.0",
+  "version": "2.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,6 @@
     "express": "^4.13.3",
     "pg": "4.4.3",
     "teamsnap.js": "^1.13.0",
-    "request", "^2.11.3" 
+    "request": "^2.11.3" 
   }
 }
