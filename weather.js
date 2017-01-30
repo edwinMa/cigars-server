@@ -13,25 +13,26 @@ const Sun = 0;
 // return value array
 const Saturday = 0;
 const Sunday = 1;
-var WeekendForecast = [];
 
-function DayForecast (hiTemp, conditions, date, icon)
-{
-    this.hiTemp = hiTemp;
-    this.conditions = conditions;
-    this.date = date;
-    this.icon = icon;
+class DayForecast {
+    constructor (hiTemp, conditions, date, icon)
+    {
+        this.hiTemp = hiTemp;
+        this.conditions = conditions;
+        this.date = date;
+        this.icon = icon;
+    }
 }
 
 
-function Weather()
-{ 
-}
+class Weather {
 
-Weather.prototype = {
-    constructor: Weather,
+    constructor () {
+    }
 
-    getWeekendForcast: function (callback) {
+    getWeekendForcast (callback) {
+
+        var weekendForecast = [];
 
         var d = new Date();
         var today = d.getDay();
@@ -72,40 +73,38 @@ Weather.prototype = {
                     var numDays = days.length;
                     debug ("num days returned: " + numDays);
 
-                    for (j=0; j< numDays; j++)
+                    for (var j=0; j< numDays; j++)
                     {
                         debug (days[j].date.weekday);
                         if (days[j].date.weekday == "Sunday")
                         {
-                            debug ("creating new Sunday's forecast " );
-                            debug ("forecast array size " + WeekendForecast.length);
+                            debug ("creating new Sunday's forecast, len: " + weekendForecast.length);
 
-                            WeekendForecast [Sunday] = new DayForecast (days[j].high.fahrenheit, days[j].conditions, 
+                            weekendForecast [Sunday] = new DayForecast (days[j].high.fahrenheit, days[j].conditions, 
                                 (days[j].date.monthname + " " + days[j].date.day), days[j].icon_url);
-                            debug ("forecast array size " + WeekendForecast.length);
                         }
                         else if (days[j].date.weekday == "Saturday")
                         {
                             debug ("creating new Saturdays's forecast " );
-                            WeekendForecast [Saturday] = new DayForecast (days[j].high.fahrenheit, days[j].conditions, 
+                            weekendForecast [Saturday] = new DayForecast (days[j].high.fahrenheit, days[j].conditions, 
                                 (days[j].date.monthname + " " + days[j].date.day), days[j].icon_url);
                         }
                     }
                 
-                    if (WeekendForecast [Saturday] != null)
+                    if (weekendForecast [Saturday] != null)
                     {
-                        debug ("Saturdays's forecast " + WeekendForecast [Saturday].conditions + " " + WeekendForecast [Saturday].hiTemp);
+                        debug ("Saturdays's forecast " + weekendForecast [Saturday].conditions + " " + weekendForecast [Saturday].hiTemp);
                     }   
 
-                    if (WeekendForecast [Sunday] != null)
+                    if (weekendForecast [Sunday] != null)
                     {
-                        debug ("Sunday's forecast " + WeekendForecast [Sunday].conditions + " " + WeekendForecast [Sunday].hiTemp);
+                        debug ("Sunday's forecast " + weekendForecast [Sunday].conditions + " " + weekendForecast [Sunday].hiTemp);
                     }
 
                     // invoke callback function                 
                     if (typeof callback === "function") {
-                        debug ("returning callback, forecast array size " + WeekendForecast.length);
-                        callback (WeekendForecast);
+                        debug ("returning callback, forecast array size " + weekendForecast.length);
+                        callback (weekendForecast);
                     }
                 }
                 else{
