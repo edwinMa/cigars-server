@@ -5,6 +5,7 @@ var debug = require ('./debug');
 const ThreeDayForecastURL = config.threeDayForecastURL;
 const TenDayForecastURL = config.tenDayForecastURL;
 
+// weather underground day indexes
 const Thur = 4;
 const Fri = 5;
 const Sat = 6;
