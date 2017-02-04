@@ -20,6 +20,8 @@ CigarsServer.Schedule = require ('./schedule');
 CigarsServer.Fields = require ('./fields');
 CigarsServer.Roster = require ('./roster');
 CigarsServer.Weather = require ('./weather');
+CigarsServer.Yogi = require ('./yogi');
+
 
 
 CigarsServer.Stats = require ('./stats');
@@ -213,6 +215,13 @@ app.get('/cigarsbaseball/forecast/', function(request, response)
         var result = JSON.stringify(data, null, CigarsServer.JSONSpacing);
         response.send (result);
     });
+    
+});
+
+app.get('/cigarsbaseball/yogiism/', function(request, response)
+{
+    debug("requesting a yogiism...");
+    response.send (CigarsServer.Yogi.getIsm());
     
 });
 
