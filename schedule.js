@@ -2,13 +2,13 @@
 var debug = require ('./debug');
 
 var games2017 = [
-        new Event ("April 2", "12 PM", "Druid Hills Middle", "@Black Sox", "W 11-1", "GC-> J.Little", ""),
+        new Event ("April 2", "12 PM", "Druid Hills Middle", "@Black Sox", "W 11-1", "GC: James Little", ""),
         new Event ("April 9", "12 PM", "South Gwinett", "Outlaws", "", "", ""),
         new Event ("April 16", "", "", "No Game", "", "Easter", ""),
         new Event ("April 23", "12 PM", "Druid Hills Middle", "Cherokees", "", "", ""),
         new Event ("April 30", "12 PM", "Lakeside", "@Black Sox", "", "", ""),
         new Event ("May 5", "12 PM", "Druid Hills Middle", "@Muckdogs", "", "", ""),
-        new Event ("May 14", "", "", "No Game", "Mother's Day", "", ""),
+        new Event ("May 14", "", "", "No Game", "", "Mother's Day", ""),
         new Event ("May 21", "12 PM", "Druid Hills Middle", "Dragons", "", "", ""),
         new Event ("May 30", "", "", "No Game", "", "Memorial Day", ""),
         new Event ("June 4", "4 PM", "Druid Hills Middle", "@Rangers", "", "", ""),
