@@ -2,9 +2,27 @@
 var debug = require ('./debug');
 
 var games2017 = [
-        new Event("September 25", "11 AM", "Druid Hills Middle", "Dragons", "L 5-3", "Semi Final Game 2", ""),
         new Event ("April 2", "12 PM", "Druid Hills Middle", "@Black Sox", "W 11-1", "GC-> J.Little", ""),
-        new Event ("April 9", "12 PM", "South Gwinett", "Outlaws", "", "", "")
+        new Event ("April 9", "12 PM", "South Gwinett", "Outlaws", "", "", ""),
+        new Event ("April 16", "", "", "No Game", "", "Easter", ""),
+        new Event ("April 23", "12 PM", "Druid Hills Middle", "Cherokees", "", "", ""),
+        new Event ("April 30", "12 PM", "Lakeside", "@Black Sox", "", "", ""),
+        new Event ("May 5", "12 PM", "Druid Hills Middle", "@Muckdogs", "", "", ""),
+        new Event ("May 14", "", "", "No Game", "Mother's Day", "", ""),
+        new Event ("May 21", "12 PM", "Druid Hills Middle", "Dragons", "", "", ""),
+        new Event ("May 30", "", "", "No Game", "", "Memorial Day", ""),
+        new Event ("June 4", "4 PM", "Druid Hills Middle", "@Rangers", "", "", ""),
+        new Event ("June 11", "12 PM", "Osborne", "@Cherokees", "", "", ""),
+        new Event ("June 18", "12 PM", "Druid Hills Middle", "@Barracudas", "", "", ""),
+        new Event ("June 25", "12 PM", "Druid Hills Middle", "Muckdogs", "", "", ""),
+        new Event ("July 2", "12 PM", "South Gwinett", "@Outlaws", "", "", ""),
+        new Event ("July 9", "12 PM", "Druid Hills Middle", "Barracudas", "", "", ""),
+        new Event ("July 16", "12 PM", "Druid Hills Middle", "@Dragons", "", "", ""),
+        new Event ("July 23", "12 PM", "Druid Hills Middle", "Rangers", "", "", ""),
+        new Event ("July 30", "12 PM", "Druid Hills Middle", "Black Sox", "", "", ""),
+        new Event ("August 6", "4 PM", "Druid Hills Middle", "Rangers", "", "", ""),
+        new Event ("August 13", "12 PM", "Druid Hills Middle", "Cherokees", "", "", ""),
+        new Event ("August 20", "4 PM", "Druid Hills Middle", "@Barracudas", "", "", "")
     ];
 
 
