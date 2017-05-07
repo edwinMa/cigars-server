@@ -7,7 +7,7 @@ var games2017 = [
         new Event ("April 16", "", "", "No Game", "", "Easter", ""),
         new Event ("April 23", "12 PM", "Druid Hills Middle", "Cherokees", "Postponed", "Rain", ""),
         new Event ("April 30", "12 PM", "Lakeside", "@Black Sox", "L 9-4", "", ""),
-        new Event ("May 5", "12 PM", "Druid Hills Middle", "@Muckdogs", "", "", ""),
+        new Event ("May 5", "12 PM", "Druid Hills Middle", "@Muckdogs", "L 9-8", "", ""),
         new Event ("May 14", "", "", "No Game", "", "Mother's Day", ""),
         new Event ("May 21", "12 PM", "Druid Hills Middle", "Dragons", "", "", ""),
         new Event ("May 30", "", "", "No Game", "", "Memorial Day", ""),
