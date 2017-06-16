@@ -80,7 +80,7 @@ class Roster
             new Player ("Tony Plagman", "Plagman", "26", "OF/1B/P", "", "L", "L", "", ""),
             new Player ("Phil Lucas", "Lucas", "50", "P/OF", "", "R", "R", "", ""),
             new Player ("Chad Lambert", "Lambert", "23", "SS/2B/P", "", "R", "R", "", ""),
-            new Player ("Jamie Houston", "Houston", "39", "IF/OF", "", "R", "R", "", ""),
+            // new Player ("Jamie Houston", "Houston", "39", "IF/OF", "", "R", "R", "", ""),
             new Player ("Adrian Prieto", "Suarez", "4", "IF/P/OF", "", "R", "R", "", ""),
             new Player ("Jonathan Roberts", "Roberts", "1", "OF/P", "", "R", "R", "", ""),
             new Player ("Thomas Smith", "Smith", "32", "2B/SS", "", "R", "R", "", ""),
