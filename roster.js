@@ -86,6 +86,7 @@ class Roster
             new Player ("Thomas Smith", "Smith", "32", "2B/SS", "", "R", "R", "", ""),
             new Player ("Nathan Moreau", "Moreau", "15", "P/OF", "", "L", "L", "", ""),
             new Player ("Cameron Yamanishi", "Yamanishi", "10", "P/OF", "", "R", "R", "", ""),
+            new Player ("Ryan Flemming", "Flemming", "17", "C/1B", "", "R", "L", "", ""),
             new Player ("James Little", "Little", "3", "C", "Farmers Branch, TX", "R", "R", "", "Shades of Gray - Robert Earl Keen")
             ];
         
