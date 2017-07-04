@@ -15,7 +15,7 @@ var games2017 = [
         new Event ("June 11", "12 PM", "Osborne", "@Cherokees", "L 3-2", "", ""),
         new Event ("June 18", "12 PM", "Druid Hills Middle", "@Barracudas", "L 11-8", "", ""),
         new Event ("June 25", "12 PM", "Druid Hills Middle", "Muckdogs", "W 8-3", "", ""),
-        new Event ("July 2", "12 PM", "South Gwinett", "@Outlaws", "", "", ""),
+        new Event ("July 2", "12 PM", "South Gwinett", "@Outlaws", "L 11-6", "", ""),
         new Event ("July 9", "12 PM", "Druid Hills Middle", "Barracudas", "", "", ""),
         new Event ("July 16", "12 PM", "Druid Hills Middle", "@Dragons", "", "", ""),
         new Event ("July 23", "12 PM", "Druid Hills Middle", "Rangers", "", "", ""),
