@@ -204,18 +204,33 @@ Stats.prototype = {
         return (playerStats);
     },
 
+
     getTopHitter: function ()
     {
         this.sortByOPS();
-        return (this.stats[0]);
-    },
+        var topHitter = null;
+        var found = false;
+        var minAB = 10;
+        var numPlayers = this.stats.length;
+
+        for (var j=0; j< numPlayers && !found; j++)
+        {
+            if (this.stats[j].atBats > minAB)
+            {
+                topHitter = this.stats[j];
+                found = true;
+            }
+        }
+
+        return (topHitter);
+    }
 
     getTopPitcher: function ()
     {
         this.sortByWHIP();
         var topPitcher = null;
         var found = false;
-        var minInnings = 0;
+        var minInnings = 5;
         var numPlayers = this.stats.length;
 
         for (var j=0; j< numPlayers && !found; j++)
