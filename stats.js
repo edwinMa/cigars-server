@@ -10,7 +10,8 @@ function BaseballStat (statArray)
 {
     // /Player,GP,AB,R,1B,2B,3B,HR,H,BB,HBP,TB,AVG,OBP,SLG,OPS,SF,RBI,SO,SB,CS
     var index = 0; 
-    this.player = (statArray[index++].slice (0, -1)).toLowerCase(); // file includes blank space after last name so slice it off
+    // this.player = (statArray[index++].slice (0, -1)).toLowerCase(); // file includes blank space after last name so slice it off
+    this.player = (statArray[index++]).toLowerCase(); //
     this.gamesPlayed = statArray[index++];
     this.atBats = statArray[index++];
     this.runs = statArray[index++];
