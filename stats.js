@@ -223,7 +223,7 @@ Stats.prototype = {
         }
 
         return (topHitter);
-    }
+    },
 
     getTopPitcher: function ()
     {
