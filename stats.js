@@ -10,8 +10,22 @@ function BaseballStat (statArray)
 {
     // /Player,GP,AB,R,1B,2B,3B,HR,H,BB,HBP,TB,AVG,OBP,SLG,OPS,SF,RBI,SO,SB,CS
     var index = 0; 
-    // this.player = (statArray[index++].slice (0, -1)).toLowerCase(); // file includes blank space after last name so slice it off
-    this.player = (statArray[index++]).toLowerCase(); //
+
+    this.player = (statArray[index++]).toLowerCase();
+    debug ("player name is: " + this.player + "*");
+
+    var lastChar = this.player[this.player.length-1];
+    debug ("last character of player name is: *" + lastChar + "*");
+
+    if (lastChar == " ")
+    {
+        debug ("stripping off blank space from the end");
+        this.player = (this.player.slice (0, -1)).toLowerCase(); // file includes blank space after last name so slice it off  
+    }
+
+    debug ("player name is: " + this.player + "*");
+
+    
     this.gamesPlayed = statArray[index++];
     this.atBats = statArray[index++];
     this.runs = statArray[index++];
@@ -186,7 +200,7 @@ Stats.prototype = {
         var numPlayers = this.stats.length;
         for (var j = 0; j < numPlayers; j++)
         {
-            debug ("player stat is " + this.stats[j].player + " looking for player " + playerName);
+            debug ("player stat is *" + this.stats[j].player + "* looking for player " + playerName);
             if (this.stats[j].player == playerName)
             {
                 playerStats = this.stats[j];
