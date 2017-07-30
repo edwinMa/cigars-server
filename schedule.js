@@ -20,9 +20,10 @@ var games2017 = [
         new Event ("July 16", "1145 PM", "Druid Hills Middle", "Dragons", "L 6-0", "", ""),
         new Event ("July 23", "10 AM", "Druid Hills Middle", "@Rangers", "W 10-5", "GC: Sean Lennox, Colin Shaepe", ""),
         new Event ("July 23", "1 PM", "Druid Hills Middle", "Rangers", "L 10-6", "", ""),
-        new Event ("July 30", "12 PM", "Druid Hills Middle", "Black Sox", "", "", ""),
+        new Event ("July 30", "12 PM", "Druid Hills Middle", "Black Sox", "W 12-5", "GC: Tony Plagman", ""),
         new Event ("August 6", "4 PM", "Druid Hills Middle", "Rangers", "", "", ""),
-        new Event ("August 13", "12 PM", "Druid Hills Middle", "Cherokees", "", "", ""),
+        new Event ("August 13", "1030 AM", "Druid Hills Middle", "Cherokees", "", "", ""),
+        new Event ("August 13", "1 PM", "Druid Hills Middle", "Cherokees", "", "", ""),
         new Event ("August 20", "4 PM", "Druid Hills Middle", "@Barracudas", "", "", "")
     ];
 
