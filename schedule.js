@@ -25,7 +25,7 @@ var games2017 = [
         new Event ("August 13", "1030 AM", "Druid Hills Middle", "Cherokees", "", "", ""),
         new Event ("August 13", "1 PM", "Druid Hills Middle", "Cherokees", "", "", ""),
         new Event ("August 20", "4 PM", "Druid Hills Middle", "@Barracudas", "", "", ""),
-        new Event ("August 26", "130 PM", "Druid Hills Middle", "Dragons", "Postponed", "", ""),
+        new Event ("August 26", "130 PM", "Druid Hills Middle", "Dragons", "", "", ""),
         new Event ("September 3", "", "", "No Game", "", "Labor Day", ""),
         new Event ("September 9", "12 PM", "TBD", "TBD", "Playoffs Game 1", "", ""),
         new Event ("September 9", "4 PM", "TBD", "TBD", "Playoffs Game 2", "", ""),
