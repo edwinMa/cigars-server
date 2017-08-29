@@ -27,9 +27,9 @@ var games2017 = [
         new Event ("August 20", "4 PM", "Druid Hills Middle", "@Barracudas", "W 6-1", "GC: Phil Lucas", ""),
         new Event ("August 27", "10 AM", "Druid Hills Middle", "Dragons", "L 4-1", "", ""),
         new Event ("September 3", "", "", "No Game", "", "Labor Day", ""),
-        new Event ("September 9", "1215 PM", "@Outlaws", "South Gwinett HS", "Playoff Game 1", "", ""),
-        new Event ("September 9", "3 PM", "Outlaws", "South Gwinett HS", "Playoff Game 2", "", ""),
-        new Event ("September 10", "12 PM", "Outlaw", "South Gwinnnet HS", "Playoff Game 3 (if necessary)", "", "")
+        new Event ("September 9", "1215 PM", "@Outlaws", "South Gwinett HS", "", "Playoff Game 1", ""),
+        new Event ("September 9", "3 PM", "Outlaws", "South Gwinett HS", "", "Playoff Game 2", ""),
+        new Event ("September 10", "12 PM", "@Outlaws", "South Gwinnnet HS", "", "Playoff Game 3 (if necessary)", "")
 
     ];
 
