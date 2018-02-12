@@ -41,7 +41,12 @@ class Roster
             new Player ("Marcus Grimaldi", "Gramaldi", "20", "SS/3B/2B", "Johns Creek, GA", "R", "L", "Master of Puppets - Metallica", ""), 
             new Player ("Roman Grimaldi", "Gramaldi", "7", "OF", "", "R", "L", "", ""),
             new Player ("Brae Wright", "Wright", "45", "P/OF/1B", "Southaven, MS", "L", "L", "", ""),
-            new Player ("Blake Dieterich", "Dieterich", "51", "OF/P", "", "L", "L", "", "")
+            new Player ("Blake Dieterich", "Dieterich", "51", "OF/P", "", "L", "L", "", ""),
+            new Player ("Alfredo Medina", "Medina", "34", "SS", "Ciudad Ojeda, Venezuela", "R", "R", "", ""),
+            new Player ("John Gentry", "Gentry", "21", "1B/P", "Charleston, SC", "R", "R", "", "images/players/21.jpg"),
+            new Player ("Jonathan Roberts", "Roberts", "1", "OF/P", "", "R", "R", "", ""),
+            new Player ("Thomas Smith", "Smith", "32", "2B/SS", "", "R", "R", "", ""),
+            new Player ("Nathan Moreau", "Moreau", "15", "P/OF", "", "L", "L", "", "")
             ];
 
         this.players2016 = [
@@ -89,13 +94,31 @@ class Roster
             new Player ("Ryan Flemming", "Flemming", "17", "C/1B", "", "R", "L", "", ""),
             new Player ("James Little", "Little", "3", "C", "Farmers Branch, TX", "R", "R", "", "Shades of Gray - Robert Earl Keen")
             ];
+
+            this.players2018 = [
+            new Player ("Edwin Marcial", "Marcial", "19", "3B", "Miami, FL", "R", "S", "When Doves Cry - Prince", "images/players/19.jpg"),
+            new Player ("Tom Hart", "Hart", "12", "2B/C", "Pittsfield, IL", "R", "R", "Flyin' down a back road - Justin Moore", "images/players/12.jpg"),
+            new Player ("John Little", "Little", "14", "P/1B", "West Palm Beach, FL", "R", "R", "", "images/players/14.jpg"),
+            new Player ("Colin Schaepe", "Shaepe", "37", "OF", "Green Bay, WI", "R", "R", "", "images/players/37.jpg"),
+            new Player ("Rob Wodarczyk", "Wodarczk", "2", "OF/IF/P", "Kernersville, NC", "R", "S", "", ""),
+            new Player ("Joel Pierce", "Pierce", "13", "C", "tbd", "R", "R", "", "images/players/13.jpg"),
+            new Player ("Sean Lennox", "Lennox", "16", "P", "Norcross, GA", "R", "R", "Givin the Dog a Bone - AC/DC", "images/players/16.jpg"),
+            new Player ("Tony Plagman", "Plagman", "26", "OF/1B/P", "", "L", "L", "", ""),
+            new Player ("Phil Lucas", "Lucas", "50", "P/OF", "", "R", "R", "", ""),
+            new Player ("Chad Lambert", "Lambert", "23", "SS/2B/P", "", "R", "R", "", ""),
+            new Player ("Jamie Houston", "Houston", "39", "IF/OF", "", "R", "R", "", ""),
+            new Player ("Adrian Prieto", "Suarez", "4", "IF/P/OF", "", "R", "R", "", ""),
+            new Player ("Cameron Yamanishi", "Yamanishi", "10", "P/OF", "", "R", "R", "", ""),
+            new Player ("Ryan Flemming", "Flemming", "17", "C/1B", "", "R", "L", "", ""),
+            new Player ("James Little", "Little", "3", "C", "Farmers Branch, TX", "R", "R", "", "Shades of Gray - Robert Earl Keen")
+            ];
         
     }
 
     getRoster()
     {
         debug ("returning roster...");
-        return (this.players2017);
+        return (this.players2018);
     }
     
 }
