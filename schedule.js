@@ -1,6 +1,11 @@
 
 var debug = require ('./debug');
 
+var games2018 = [
+        new Event ("September 9", "1215 PM", "South Gwinett HS", "Outlaws", "L", "Playoff Game 2", ""),
+        new Event ("April 8", "12 PM", "Druid Hills Middle", "TBD", "", "", "")
+    ];
+
 var games2017 = [
         new Event ("April 2", "12 PM", "Druid Hills Middle", "@Black Sox", "W 11-1", "GC: James Little", ""),
         new Event ("April 9", "12 PM", "South Gwinett", "Outlaws", "L 7-4", "", ""),
@@ -27,9 +32,8 @@ var games2017 = [
         new Event ("August 20", "4 PM", "Druid Hills Middle", "@Barracudas", "W 6-1", "GC: Phil Lucas", ""),
         new Event ("August 27", "10 AM", "Druid Hills Middle", "Dragons", "L 4-1", "", ""),
         new Event ("September 3", "", "", "No Game", "", "Labor Day", ""),
-        new Event ("September 9", "1215 PM", "@Outlaws", "South Gwinett HS", "", "Playoff Game 1", ""),
-        new Event ("September 9", "3 PM", "Outlaws", "South Gwinett HS", "", "Playoff Game 2", ""),
-        new Event ("September 10", "12 PM", "@Outlaws", "South Gwinnnet HS", "", "Playoff Game 3 (if necessary)", "")
+        new Event ("September 9", "1215 PM", "South Gwinett HS", "@Outlaws", "L", "Playoff Game 1", ""),
+        new Event ("September 9", "3 PM", "South Gwinett HS", "Outlaws", "L", "Playoff Game 2", "")
 
     ];
 
