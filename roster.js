@@ -110,6 +110,8 @@ class Roster
             new Player ("Adrian Prieto", "Suarez", "4", "IF/P/OF", "", "R", "R", "", ""),
             new Player ("Cameron Yamanishi", "Yamanishi", "10", "P/OF", "", "R", "R", "", ""),
             new Player ("Ryan Flemming", "Flemming", "17", "C/1B", "", "R", "L", "", ""),
+            new Player ("Emerson Garcia", "Garcia", "XX", "IF/P/C", "", "R", "R", "", ""),
+            new Player ("Freddy Pena", "Pena", "XX", "OF/2B", "", "R", "R", "", ""),
             new Player ("James Little", "Little", "3", "C", "Farmers Branch, TX", "R", "R", "", "Shades of Gray - Robert Earl Keen")
             ];
         
