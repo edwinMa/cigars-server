@@ -114,6 +114,8 @@ class Roster
             new Player ("Freddy Pena", "Pena", "XX", "OF/2B", "", "R", "R", "", ""),
             new Player ("Tyler Buskirk", "Buskirk", "XX", "OF", "", "R", "R", "", ""),
             new Player ("Bryan Klapes", "Klapes", "XX", "OF/1B", "", "R", "R", "", ""),
+            new Player ("Garrett Dailey", "Dailey", "XX", "OF", "", "L", "L", "", ""),
+            new Player ("Jamie Houston", "Houston", "39", "IF/OF", "", "R", "R", "", ""),
             new Player ("James Little", "Little", "3", "C", "Farmers Branch, TX", "R", "R", "", "Shades of Gray - Robert Earl Keen")
             ];
         
