@@ -3,7 +3,38 @@ var debug = require ('./debug');
 
 var games2018 = [
         new Event ("September 9", "1215 PM", "South Gwinett HS", "Outlaws", "L 5-4", "Playoff Game 2", ""),
-        new Event ("April 8", "12 PM", "Druid Hills Middle", "TBD", "", "Opening Day 2018", "")
+        
+        new Event ("April 8", "4 PM", "Druid Hills Middle", "@Buckhead Squeaks", "", "Opening Day 2018", ""),
+        new Event ("April 15", "4 PM", "South Gwinett HS", "@Muckdogs", "", "", ""),
+        new Event ("April 22", "4 PM", "South Gwinett HS", "Outlaws", "", "", ""),
+        new Event ("April 29", "12 PM", "South Cobb HS", "@Cherokees", "", "", ""),
+
+        new Event ("May 6", "4 PM", "Druid Hills Middle", "Tainos", "", "", ""),
+        new Event ("May 13", "", "", "No Game", "", "Mother's Day", ""),
+        new Event ("May 20", "12 PM", "Druid Hills Middle", "Black Sox", "", "", ""),
+        new Event ("May 27", "", "", "No Game", "", "Memorial Day Weekend", ""),
+
+        new Event ("June 3", "12 PM", "Druid Hills Middle", "@Dodgers", "", "", ""),
+        new Event ("June 10", "12 PM", "Druid Hills Middle", "Gwinett Tigers", "", "", ""),
+        new Event ("June 17", "12 PM", "Druid Hills Middle", "@Dragons", "", "", ""),
+        new Event ("June 24", "12 PM", "Druid Hills Middle", "Buckhead Squeaks", "", "", ""),
+
+        new Event ("July 1", "12 PM", "South Gwinett HS", "Muckdogs", "", "", ""),
+        new Event ("July 8", "4 PM", "Druid Hills Middle", "@Tainos", "", "", ""),
+        new Event ("July 17", "12 PM", "Osborne HS", "Cherokees", "", "", ""),
+        new Event ("July 22", "4 PM", "South Gwinett HS", "@Outlaws", "", "", ""),
+        new Event ("July 29", "12 PM", "Lakeside HS", "Black Sox", "", "", ""),
+
+        new Event ("August 5", "4 PM", "Druid Hills Middle", "Dodgers", "", "", ""),
+        new Event ("August 12", "12 PM", "Druid Hills Middle", "@Gwinett Tigers", "", "", ""),
+        new Event ("August 19", "12 PM", "Druid Hills Middle", "Dragons", "", "", ""),
+
+        new Event ("August 26", "TBD", "TBD", "TBD", "", "Makeup Date", ""),
+        new Event ("September 2", "", "", "No Game", "", "Labor Day Weekend", ""),
+        new Event ("September 8", "TBD", "TBD", "TBD", "", "Playoff Game 1", ""),
+        new Event ("September 8", "TBD", "TBD", "TBD", "", "Playoff Game 2", ""),
+        new Event ("September 9", "TBD", "TBD", "TBD", "", "Playoff Game 3", "")
+
     ];
 
 var games2017 = [
