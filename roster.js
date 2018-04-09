@@ -106,7 +106,7 @@ class Roster
             new Player ("Sean Lennox", "Lennox", "16", "P", "Norcross, GA", "R", "R", "Givin the Dog a Bone - AC/DC", "images/players/16.jpg"),
             new Player ("Tony Plagman", "Plagman", "26", "OF/1B/P", "", "L", "L", "", ""),
             new Player ("Phil Lucas", "Lucas", "50", "P/OF", "", "R", "R", "", ""),
-            new Player ("Chad Lambert", "Lambert", "23", "SS/2B/P", "", "R", "R", "", ""),
+            // new Player ("Chad Lambert", "Lambert", "23", "SS/2B/P", "", "R", "R", "", ""),
             new Player ("Adrian Prieto", "Suarez", "4", "IF/P/OF", "", "R", "R", "", ""),
             new Player ("Cameron Yamanishi", "Yamanishi", "10", "P/OF", "", "R", "R", "", ""),
             new Player ("Ryan Flemming", "Flemming", "17", "C/1B", "", "R", "L", "", ""),
@@ -115,7 +115,7 @@ class Roster
             new Player ("Tyler Buskirk", "Buskirk", "XX", "OF", "", "R", "R", "", ""),
             new Player ("Bryan Klapes", "Klapes", "XX", "OF/1B", "", "R", "R", "", ""),
             new Player ("Garrett Daily", "Dailey", "XX", "OF", "", "L", "L", "", ""),
-            new Player ("Jamie Houston", "Houston", "39", "IF/OF", "", "R", "R", "", ""),
+            // new Player ("Jamie Houston", "Houston", "39", "IF/OF", "", "R", "R", "", ""),
             new Player ("James Little", "Little", "3", "C", "Farmers Branch, TX", "R", "R", "", "Shades of Gray - Robert Earl Keen")
             ];
         
