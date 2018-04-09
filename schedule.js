@@ -2,8 +2,6 @@
 var debug = require ('./debug');
 
 var games2018 = [
-        new Event ("September 9", "1215 PM", "South Gwinett HS", "Outlaws", "L 5-4", "Playoff Game 2", ""),
-
         new Event ("April 8", "4 PM", "Druid Hills Middle", "@Buckhead Squeaks", "W 13-2", "Opening Day 2018", ""),
         new Event ("April 15", "4 PM", "South Gwinett HS", "@Muckdogs", "", "", ""),
         new Event ("April 22", "4 PM", "South Gwinett HS", "Outlaws", "", "", ""),
