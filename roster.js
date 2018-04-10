@@ -112,7 +112,6 @@ class Roster
             new Player ("Ryan Flemming", "Flemming", "17", "C/1B", "", "R", "L", "", ""),
             new Player ("Emerson Garcia", "Garcia", "XX", "IF/P/C", "", "R", "R", "", ""),
             new Player ("Freddy Pena", "Pena", "XX", "OF/2B", "", "R", "R", "", ""),
-            new Player ("Tyler Buskirk", "Buskirk", "XX", "OF", "", "R", "R", "", ""),
             new Player ("Bryan Klapes", "Klapes", "XX", "OF/1B", "", "R", "R", "", ""),
             new Player ("Garrett Daily", "Dailey", "XX", "OF", "", "L", "L", "", ""),
             // new Player ("Jamie Houston", "Houston", "39", "IF/OF", "", "R", "R", "", ""),
