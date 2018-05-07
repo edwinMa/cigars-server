@@ -7,7 +7,7 @@ var games2018 = [
         new Event ("April 22", "4 PM", "South Gwinett HS", "Outlaws", "Postponed", "Rain", ""),
         new Event ("April 29", "12 PM", "South Cobb HS", "@Cherokees", "L 12-0", "", ""),
 
-        new Event ("May 6", "4 PM", "Druid Hills Middle", "Tainos", "", "", ""),
+        new Event ("May 6", "4 PM", "Druid Hills Middle", "Tainos", "L 11-1", "", ""),
         new Event ("May 13", "", "", "No Game", "", "Mother's Day", ""),
         new Event ("May 20", "12 PM", "Druid Hills Middle", "Black Sox", "", "", ""),
         new Event ("May 27", "", "", "No Game", "", "Memorial Day Weekend", ""),
