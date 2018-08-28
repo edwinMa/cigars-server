@@ -46,7 +46,10 @@ class Roster
             new Player ("John Gentry", "Gentry", "21", "1B/P", "Charleston, SC", "R", "R", "", "images/players/21.jpg"),
             new Player ("Jonathan Roberts", "Roberts", "1", "OF/P", "", "R", "R", "", ""),
             new Player ("Thomas Smith", "Smith", "32", "2B/SS", "", "R", "R", "", ""),
-            new Player ("Jamie Houston", "Houston", "39", "IF/OF", "", "R", "R", "", "")
+            new Player ("Jamie Houston", "Houston", "39", "IF/OF", "", "R", "R", "", ""),
+            new Player ("Chad Lambert", "Lambert", "23", "SS/2B/P", "", "R", "R", "", ""),
+            new Player ("Tony Plagman", "Plagman", "26", "OF/1B/P", "", "L", "L", "", "")
+
 
             ];
 
@@ -97,25 +100,26 @@ class Roster
             ];
 
             this.players2018 = [
-            new Player ("Edwin Marcial", "Marcial", "19", "3B", "Miami, FL", "R", "S", "When Doves Cry - Prince", "images/players/19.jpg"),
+            new Player ("Edwin Marcial", "Marcial", "19", "IF", "Miami, FL", "R", "S", "When Doves Cry - Prince", "images/players/19.jpg"),
             new Player ("Tom Hart", "Hart", "12", "2B/C", "Pittsfield, IL", "R", "R", "Flyin' down a back road - Justin Moore", "images/players/12.jpg"),
             new Player ("John Little", "Little", "14", "P/1B", "West Palm Beach, FL", "R", "R", "", "images/players/14.jpg"),
             new Player ("Colin Schaepe", "Shaepe", "37", "OF", "Green Bay, WI", "R", "R", "", "images/players/37.jpg"),
-            new Player ("Rob Wodarczyk", "Wodarczk", "2", "OF/IF/P", "Kernersville, NC", "R", "S", "", ""),
+            new Player ("Rob Wodarczyk", "Wodarczk", "2", "OF", "Kernersville, NC", "R", "S", "", ""),
             new Player ("Joel Pierce", "Pierce", "13", "C", "tbd", "R", "R", "", "images/players/13.jpg"),
             new Player ("Sean Lennox", "Lennox", "16", "P", "Norcross, GA", "R", "R", "Givin the Dog a Bone - AC/DC", "images/players/16.jpg"),
-            new Player ("Tony Plagman", "Plagman", "26", "OF/1B/P", "", "L", "L", "", ""),
-            new Player ("Phil Lucas", "Lucas", "50", "P/OF", "", "R", "R", "", ""),
-            // new Player ("Chad Lambert", "Lambert", "23", "SS/2B/P", "", "R", "R", "", ""),
-            new Player ("Adrian Prieto", "Suarez", "4", "IF/P/OF", "", "R", "R", "", ""),
-            new Player ("Cameron Yamanishi", "Yamanishi", "10", "P/OF", "", "R", "R", "", ""),
-            new Player ("Ryan Flemming", "Flemming", "17", "C/1B", "", "R", "L", "", ""),
-            new Player ("Emerson Garcia", "Garcia", "XX", "IF/P/C", "", "R", "R", "", ""),
+            new Player ("Phil Lucas", "Lucas", "50", "P", "", "R", "R", "", ""),
+            // new Player ("Adrian Prieto", "Suarez", "4", "IF/P/OF", "", "R", "R", "", ""),
+            new Player ("Cameron Yamanishi", "Yamanishi", "10", "OF/P", "", "R", "R", "", ""),
+            new Player ("Ryan Flemming", "Flemming", "17", "C/3B", "", "R", "L", "", ""),
             new Player ("Freddy Pena", "Pena", "XX", "OF/2B", "", "R", "R", "", ""),
-            new Player ("Bryan Klapes", "Klapes", "XX", "OF/1B", "", "R", "R", "", ""),
-            new Player ("Garrett Daily", "Dailey", "XX", "OF", "", "L", "L", "", ""),
-            // new Player ("Jamie Houston", "Houston", "39", "IF/OF", "", "R", "R", "", ""),
-            new Player ("James Little", "Little", "3", "C", "Farmers Branch, TX", "R", "R", "", "Shades of Gray - Robert Earl Keen")
+            //new Player ("Garrett Daily", "Dailey", "XX", "OF", "", "L", "L", "", ""),
+            new Player ("Jamie Houston", "Houston", "39", "P", "", "R", "R", "", ""),
+            new Player ("James Little", "Little", "3", "C/P/OF", "Farmers Branch, TX", "R", "R", "", "Shades of Gray - Robert Earl Keen"),
+
+            new Player ("Corey Johnson", "Johnson", "4", "SS", "Georgia", "R", "R", "", ""),
+            new Player ("Kameron Francisco", "Francisco", "1", "1B", "", "R", "R", "", ""),
+            new Player ("Jarrett Smith", "Smith", "26", "IF/OF", "", "R", "R", "", ""),
+            new Player ("Tyler Ferguson", "Ferguson", "X", "P", "", "R", "R", "", ""),
             ];
         
     }
