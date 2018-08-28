@@ -118,7 +118,7 @@ class Roster
 
             new Player ("Corey Johnson", "Johnson", "XX", "SS", "Georgia", "R", "R", "", ""),
             new Player ("Kameron Francisco", "Francisco", "XX", "1B", "", "R", "R", "", ""),
-            new Player ("Jarrett Smith", "Smith", "XX", "IF/OF", "", "R", "R", "", ""),
+            new Player ("Jarrett Smith", "Smith", "XX", "IF/OF/P", "", "R", "R", "", ""),
             new Player ("Tyler Ferguson", "Ferguson", "XX", "P", "", "R", "R", "", ""),
             new Player ("Eric Salo", "Salo", "XX", "P", "", "R", "R", "", ""),
 
