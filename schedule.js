@@ -19,7 +19,7 @@ var games2018 = [
 
         new Event ("July 1", "12 PM", "South Gwinett HS", "Muckdogs", "Postponed", "", ""),
         new Event ("July 8", "4 PM", "Druid Hills Middle", "@Tainos", "L", "", ""),
-        new Event ("July 17", "12 PM", "Osborne HS", "Cherokees", "", "L", ""),
+        new Event ("July 17", "12 PM", "Osborne HS", "Cherokees", "L", "", ""),
         new Event ("July 22", "4 PM", "South Gwinett HS", "@Outlaws", "L 4-2", "", ""),
         new Event ("July 29", "12 PM", "Lakeside HS", "Black Sox", "L", "", ""),
 
