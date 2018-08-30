@@ -116,8 +116,8 @@ class Roster
             new Player ("Jamie Houston", "Houston", "39", "P", "", "R", "R", "", ""),
             new Player ("James Little", "Little", "3", "C/P/OF", "Farmers Branch, TX", "R", "R", "", "Shades of Gray - Robert Earl Keen"),
 
-            new Player ("Corey Johnson", "Johnson", "XX", "SS", "Georgia", "R", "R", "", ""),
-            new Player ("Kameron Francisco", "Francisco", "XX", "1B", "", "R", "R", "", ""),
+            new Player ("Corey Johnson", "Johnson", "4", "SS", "Georgia", "R", "R", "", ""),
+            new Player ("Kameron Francisco", "Francisco", "1", "1B", "", "R", "R", "", ""),
             new Player ("Jarrett Smith", "Smith", "XX", "IF/OF/P", "", "R", "R", "", ""),
             new Player ("Tyler Ferguson", "Ferguson", "XX", "P", "", "R", "R", "", ""),
             new Player ("Eric Salo", "Salo", "XX", "P", "", "R", "R", "", "")
