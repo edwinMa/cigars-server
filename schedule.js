@@ -33,8 +33,8 @@ var games2018 = [
 
         new Event ("September 2", "", "", "No Game", "", "Labor Day Weekend", ""),
         new Event ("September 8", "4 PM", "Druid Hills Middle", "@Cherokees", "W 9-4", "Playoff Game 1", ""),
-        new Event ("September 8", "1030 AM", "Druid Hills Middle", "Cherokees", "", "Playoff Game 2", ""),
-        new Event ("September 9", "130", "Druid Hills Middle", "@Cherokees", "", "Playoff Game 3", "If Necessary")
+        new Event ("September 8", "1030 AM", "Druid Hills Middle", "Cherokees", "L 6-2", "Playoff Game 2", ""),
+        new Event ("September 9", "130", "Druid Hills Middle", "@Cherokees", "L 9-2", "Playoff Game 3", "")
 
     ];
 
