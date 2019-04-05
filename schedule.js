@@ -3,7 +3,10 @@ var debug = require ('./debug');
 
 var games2019 = [
         new Event ("September 8", "4 PM", "Druid Hills Middle", "@Cherokees", "W 9-4", "Playoff Game 1", ""),
-        new Event ("April 7", "12 PM", "Druid Hills Middle", "Buckhead Squeaks", "", "Opening Day", "")
+        new Event ("April 7", "12 PM", "Druid Hills Middle", "@Buckhead Squeaks", "", "Opening Day", ""),
+        new Event ("April 14", "12 PM", "Druid Hills Middle", "Bombers", "", "", ""),
+        new Event ("April 21", "", "", "No Game", "", "Easter Sunday", "")
+
 ];
 
 var games2018 = [
