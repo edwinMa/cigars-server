@@ -2,6 +2,11 @@
 var debug = require ('./debug');
 
 var games2018 = [
+        new Event ("September 8", "4 PM", "Druid Hills Middle", "@Cherokees", "W 9-4", "Playoff Game 1", ""),
+        new Event ("April 7", "12 PM", "Druid Hills Middle", "Buckhead Squeaks", "", "Opening Day", "")
+];
+
+var games2018 = [
         new Event ("April 8", "4 PM", "Druid Hills Middle", "@Buckhead Squeaks", "W 13-2", "Opening Day 2018", ""),
         new Event ("April 15", "4 PM", "South Gwinett HS", "@Muckdogs", "Postponed", "Rain", ""),
         new Event ("April 22", "4 PM", "South Gwinett HS", "Outlaws", "Postponed", "Rain", ""),
@@ -154,8 +159,8 @@ function Event(date, time, field, opponent, result, note, eviteURL)
 function Schedule()
 {
     // last column is for evite link
-    this.events = games2018;
-    this.year = "2018";
+    this.events = games2019;
+    this.year = "2019";
 }
 
 
