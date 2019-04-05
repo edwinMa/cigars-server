@@ -1,7 +1,7 @@
 
 var debug = require ('./debug');
 
-var games2018 = [
+var games2019 = [
         new Event ("September 8", "4 PM", "Druid Hills Middle", "@Cherokees", "W 9-4", "Playoff Game 1", ""),
         new Event ("April 7", "12 PM", "Druid Hills Middle", "Buckhead Squeaks", "", "Opening Day", "")
 ];
