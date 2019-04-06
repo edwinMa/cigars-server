@@ -5,9 +5,18 @@ var games2019 = [
         new Event ("September 9", "130 PM", "Druid Hills Middle", "@Cherokees", "L 9-2", "Playoff Game 3", ""),
         new Event ("April 7", "12 PM", "Druid Hills Middle", "@Buckhead Squeaks", "", "Opening Day", ""),
         new Event ("April 14", "12 PM", "Druid Hills Middle", "Bombers", "", "", ""),
-        new Event ("April 21", "", "", "No Game", "", "Easter Sunday", "")
+        new Event ("April 21", "", "", "No Game", "", "Easter Sunday", ""),
+        new Event ("April 28", "12 PM", "Druid Hills Middle", "Tainos", "", "", ""),
+        new Event ("May 5", "12 PM", "Druid Hills Middle", "@Cherokees", "", "", ""),
+        new Event ("May 12", "", "", "No Game", "", "Mother's Day", ""),
+        new Event ("May 19", "4 PM", "South Gwinett", "@Muckdogs", "", "", ""),
+        new Event ("May 26", "", "", "No Game", "", "Memorial Day Weekend", ""),
+        new Event ("June 2", "12 PM", "South Gwinett", "Black Sox", "", "", ""),
+        new Event ("June 9", "12 PM", "South Gwinett", "Dragons", "", "", ""),
+        new Event ("June 9", "12 PM", "South Gwinett", "Buckhead Squeaks", "", "", "")
 
 ];
+
 
 var games2018 = [
         new Event ("April 8", "4 PM", "Druid Hills Middle", "@Buckhead Squeaks", "W 13-2", "Opening Day 2018", ""),
