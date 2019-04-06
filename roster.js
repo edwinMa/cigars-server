@@ -139,17 +139,17 @@ class Roster
             new Player ("Phil Lucas", "Lucas", "50", "P", "", "R", "R", "", ""),
             new Player ("Cameron Yamanishi", "Yamanishi", "10", "OF/P", "", "R", "R", "", ""),
             new Player ("Ryan Flemming", "Flemming", "17", "C/3B", "", "R", "L", "", ""),
-            new Player ("Freddy Pena", "Pena", "32", "OF/2B", "", "R", "R", "", ""),
+            new Player ("Freddy Pena", "Pena", "XX", "OF/2B", "", "R", "R", "", ""),
             new Player ("Garrett Daily", "Dailey", "XX", "OF", "", "L", "L", "", ""),
             new Player ("Jamie Houston", "Houston", "39", "P", "", "R", "R", "", ""),
             new Player ("James Little", "Little", "3", "C/P/OF", "Farmers Branch, TX", "R", "R", "", "Shades of Gray - Robert Earl Keen"),
             new Player ("Corey Johnson", "Johnson", "4", "SS", "Georgia", "R", "R", "", ""),
             new Player ("Spencer Middleton", "Middleton", "1", "P/OF/1B", "Georgia", "R", "R", "", ""),
             new Player ("Omar Alladina", "Alladina", "9", "1B", "", "R", "R", "", ""),
-            new Player ("Omar Alladina", "Alladina", "9", "1B", "", "R", "R", "", ""),
             new Player ("Cole Goodwin", "Goodwin", "18", "P/2B", "", "R", "R", "", ""),
             new Player ("Joseph Lee", "Lee", "24", "1B/3B", "", "R", "R", "", ""),
             new Player ("Sam Beatty", "Beatty", "30", "P/OF", "", "R", "R", "", ""),
+            new Player ("Brandon Goldsmith", "Goldsmith", "8", "P/OF", "", "R", "R", "", ""),
             new Player ("Alex Cruz", "Cruz", "36", "IF", "", "R", "R", "", "")
 
             
