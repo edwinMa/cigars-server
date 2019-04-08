@@ -150,8 +150,8 @@ class Roster
             new Player ("Joseph Lee", "Lee", "24", "1B/3B", "", "R", "R", "", ""),
             new Player ("Sam Beatty", "Beatty", "30", "P/OF", "", "R", "R", "", ""),
             new Player ("Brandon Goldsmith", "Goldsmith", "8", "P/OF", "", "R", "R", "", ""),
-            new Player ("Luis Pena", "LPena", "20", "P", "", "R", "R", "", ""),
-            new Player ("Alex Cruz", "Cruz", "7", "IF", "", "R", "R", "", ""),
+            new Player ("Luis Pena", "LPena", "XX", "P", "", "R", "R", "", ""),
+            new Player ("Alex Cruz", "Cruz", "XX", "IF", "", "R", "R", "", ""),
             new Player ("Alfredo Medina", "Medina", "34", "IF", "", "R", "R", "", "")
 
 
