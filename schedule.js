@@ -11,7 +11,7 @@ var games2019 = [
         new Event ("May 12", "", "", "No Game", "", "Mother's Day", ""),
         new Event ("May 19", "4 PM", "South Gwinett", "@Muckdogs", "W 11-3", "", ""),
         new Event ("May 26", "", "", "No Game", "", "Memorial Day Weekend", ""),
-        new Event ("June 2", "12 PM", "South Gwinett", "Black Sox", "", "", ""),
+        new Event ("June 2", "12 PM", "South Gwinett", "Black Sox", "L 12-0", "", ""),
         new Event ("June 9", "12 PM", "South Gwinett", "Dragons", "", "", ""),
         new Event ("June 16", "12 PM", "South Gwinett", "Buckhead Squeaks", "", "", ""),
         new Event ("June 23", "12 PM", "Druid Hills Middle", "@Bombers", "", "", ""),
