@@ -2,23 +2,29 @@
 var debug = require ('./debug');
 
 var games2019 = [
-        new Event ("April 7", "12 PM", "Druid Hills Middle", "@Buckhead Squeaks", "Postponed", "Opening Day", ""),
-        new Event ("April 14", "12 PM", "Druid Hills Middle", "Bombers", "Postponed", "", ""),
-        new Event ("April 18", "730 PM", "Osborne High School", "Bombers", "W 9-4", "", ""),
+        new Event ("April 7", "12 PM", "Druid Hills", "@Buckhead Squeaks", "Postponed", "Opening Day", ""),
+        new Event ("April 14", "12 PM", "Druid Hills", "Bombers", "Postponed", "", ""),
+        new Event ("April 18", "730 PM", "Osborne", "Bombers", "W 9-4", "", ""),
         new Event ("April 21", "", "", "No Game", "", "Easter Sunday", ""),
-        new Event ("April 28", "12 PM", "Druid Hills Middle", "Tainos", "L 8-3", "", ""),
-        new Event ("May 5", "12 PM", "Druid Hills Middle", "@Cherokees", "L 5-0", "", ""),
+        new Event ("April 28", "12 PM", "Druid Hills", "Tainos", "L 8-3", "", ""),
+        new Event ("May 5", "12 PM", "Druid Hills", "@Cherokees", "L 5-0", "", ""),
         new Event ("May 12", "", "", "No Game", "", "Mother's Day", ""),
         new Event ("May 19", "4 PM", "South Gwinett", "@Muckdogs", "W 11-3", "", ""),
         new Event ("May 26", "", "", "No Game", "", "Memorial Day Weekend", ""),
         new Event ("June 2", "12 PM", "South Gwinett", "Black Sox", "L 12-0", "", ""),
-        new Event ("June 9", "12 PM", "South Gwinett", "Dragons", "", "", ""),
-        new Event ("June 16", "12 PM", "South Gwinett", "Buckhead Squeaks", "", "", ""),
-        new Event ("June 23", "12 PM", "Druid Hills Middle", "@Bombers", "", "", ""),
-        new Event ("June 30", "12 PM", "Osborne", "@Black Sox", "", "", "")
-
-
-
+        new Event ("June 9", "12 PM", "South Gwinett", "Dragons", "", "Postponed", ""),
+        new Event ("June 16", "12 PM", "South Gwinett", "Buckhead Squeaks", "W 8-5", "", ""),
+        new Event ("June 23", "12 PM", "Druid Hills", "@Bombers", "", "", ""),
+        new Event ("June 30", "12 PM", "Osborne", "@Black Sox", "", "", ""),
+        new Event ("July 7", "4 PM", "Ward Park", "@Tainos", "", "", ""),
+        new Event ("July 14", "4 PM", "South Gwinett", "@Muckdogs", "", "", ""),
+        new Event ("July 21", "12 PM", "Druid Hills", "Cherokees", "", "", ""),
+        new Event ("July 28", "12 PM", "South Gwinett", "@Dragons", "", "", ""),
+        new Event ("August 4", "12 PM", "South Gwinett", "@Muckdogs", "", "", ""),
+        new Event ("August 11", "12 PM", "Druid Hills", "Black Sox", "", "", ""),
+        new Event ("August 18", "12 PM", "South Gwinett", "Dragons", "", "", ""),
+        new Event ("August 25", "12 PM", "South Gwinett", "@Squeaks", "", "", ""),
+        new Event ("September 8", "12 PM", "South Gwinett", "Dragons", "", "", "")
 
 ];
 
@@ -91,6 +97,7 @@ var games2017 = [
         new Event ("September 3", "", "", "No Game", "", "Labor Day", ""),
         new Event ("September 9", "1215 PM", "South Gwinett HS", "@Outlaws", "L", "Playoff Game 1", ""),
         new Event ("September 9", "3 PM", "South Gwinett HS", "Outlaws", "L", "Playoff Game 2", "")
+
 
     ];
 
