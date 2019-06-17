@@ -24,7 +24,7 @@ var games2019 = [
         new Event ("August 11", "12 PM", "Druid Hills", "Black Sox", "", "", ""),
         new Event ("August 18", "12 PM", "South Gwinett", "Dragons", "", "", ""),
         new Event ("August 25", "12 PM", "South Gwinett", "@Squeaks", "", "", ""),
-        new Event ("September 1", "12 PM", "No Game", "", "Labor Day Weekend", "", ""),
+        new Event ("September 1", "", "", "No Game", "", "Labor Day Weekend", ""),
         new Event ("September 8", "12 PM", "South Gwinett", "Dragons", "", "", "")
 
 ];
