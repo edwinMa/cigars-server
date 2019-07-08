@@ -3,7 +3,7 @@ var debug = require ('./debug');
 
 var games2019 = [
         new Event ("April 7", "12 PM", "Druid Hills", "@Buckhead Squeaks", "Postponed", "Opening Day", ""),
-        new Event ("April 14", "12 PM", "Druid Hills", "Bombers", "Postponed", "", ""),
+        new Event ("April 14", "12 PM", "Druid Hills", "Bombers", "PPD-Made Up", "", ""),
         new Event ("April 18", "730 PM", "Osborne", "Bombers", "W 9-4", "", ""),
         new Event ("April 21", "", "", "No Game", "", "Easter Sunday", ""),
         new Event ("April 28", "12 PM", "Druid Hills", "Tainos", "L 8-3", "", ""),
@@ -16,7 +16,7 @@ var games2019 = [
         new Event ("June 16", "12 PM", "South Gwinett", "Buckhead Squeaks", "W 8-5", "", ""),
         new Event ("June 23", "12 PM", "Druid Hills", "@Bombers", "W 18-1", "", ""),
         new Event ("June 30", "12 PM", "Osborne", "@Black Sox", "L 6-1", "", ""),
-        new Event ("July 7", "4 PM", "Ward Park", "@Tainos", "", "", ""),
+        new Event ("July 7", "4 PM", "Ward Park", "@Tainos", "Postponed", "", ""),
         new Event ("July 14", "4 PM", "South Gwinett", "@Muckdogs", "", "", ""),
         new Event ("July 21", "12 PM", "Druid Hills", "Cherokees", "", "", ""),
         new Event ("July 28", "12 PM", "South Gwinett", "@Dragons", "", "", ""),
