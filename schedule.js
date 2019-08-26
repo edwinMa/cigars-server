@@ -12,7 +12,7 @@ var games2019 = [
         new Event ("May 19", "4 PM", "South Gwinett", "@Muckdogs", "W 11-3", "", ""),
         new Event ("May 26", "", "", "No Game", "", "Memorial Day Weekend", ""),
         new Event ("June 2", "12 PM", "South Gwinett", "Black Sox", "L 12-0", "", ""),
-        new Event ("June 9", "12 PM", "South Gwinett", "Dragons", "PPD-Scheduled", "", ""),
+        new Event ("June 9", "12 PM", "South Gwinett", "Dragons", "PPD-Made Up", "", ""),
         new Event ("June 16", "12 PM", "South Gwinett", "Buckhead Squeaks", "W 8-5", "", ""),
         new Event ("June 23", "12 PM", "Druid Hills", "@Bombers", "W 18-1", "", ""),
         new Event ("June 30", "12 PM", "Osborne", "@Black Sox", "L 6-1", "", ""),
@@ -20,13 +20,18 @@ var games2019 = [
         new Event ("July 14", "4 PM", "South Gwinett", "@Muckdogs", "L 5-3", "", ""),
         new Event ("July 21", "12 PM", "Druid Hills", "Cherokees", "L 6-4", "", ""),
         new Event ("July 28", "12 PM", "South Gwinett", "@Dragons", "L 15-3", "", ""),
-        new Event ("August 4", "4 PM", "South Gwinett", "@Muckdogs", "Postponed", "", ""),
-        new Event ("August 11", "12 PM", "South Gwinett", "Black Sox", "", "", ""),
-        new Event ("August 18", "12 PM", "South Gwinett", "Dragons", "", "", ""),
-        new Event ("August 25", "12 PM", "Druid Hills", "@Squeaks", "doubleheader?", "", ""),
-        new Event ("August 25", "4 PM", "Druid Hills", "Squeaks", "doubleheader?", "", ""),
+        new Event ("August 4", "4 PM", "South Gwinett", "@Muckdogs", "Postponed-Rescheduled", "", ""),
+        new Event ("August 11", "12 PM", "South Gwinett", "Black Sox", "L", "", ""),
+        new Event ("August 18", "12 PM", "South Gwinett", "Dragons", "L 8-1", "", ""),
+        new Event ("August 18", "3 PM", "South Gwinett", "Dragons", "T 1-1", "makeup", ""),
+        new Event ("August 25", "12 PM", "Druid Hills", "@Squeaks", "W 15-0", "", ""),
+        new Event ("August 25", "4 PM", "Druid Hills", "Squeaks", "W 9-0", "forfeit", ""),
         new Event ("September 1", "", "", "No Game", "", "Labor Day Weekend", ""),
-        new Event ("September 8", "12 PM", "South Gwinett", "Dragons", "", "", "")
+        new Event ("September 8", "4 PM", "South Gwinett", "@Muckdogs", "", "makeup", ""),
+        new Event ("September 14", "12 PM", "TBD", "TBD", "", "Playoff Game 1", ""),
+        new Event ("September 14", "4 PM", "TBD", "TBD", "", "Playoff Game 2", ""),
+        new Event ("September 15", "12 PM", "TBD", "TBD", "", "Playoff Game 3 - If ncecessary", "")
+
 
 ];
 
