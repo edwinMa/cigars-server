@@ -143,7 +143,7 @@ class Roster
             new Player ("Garrett Daily", "Dailey", "22", "OF", "", "L", "L", "", ""),
             new Player ("Mathew Powell", "Powell", "28", "P/1B", "", "L", "L", "", ""),
             new Player ("James Little", "Little", "3", "C/OF/P", "Farmers Branch, TX", "R", "R", "", "Shades of Gray - Robert Earl Keen"),
-            new Player ("Corey Johnson", "Johnson", "4", "SS", "Georgia", "R", "R", "", ""),
+            new Player ("LeCorey Johnson", "Johnson", "4", "SS", "Georgia", "R", "R", "", ""),
             new Player ("Spencer Middleton", "Middleton", "1", "OF/P/1B", "Georgia", "R", "R", "", ""),
             new Player ("Omar Alladina", "Alladina", "9", "1B/3B", "", "R", "R", "", ""),
             new Player ("Cole Goodwin", "Goodwin", "18", "P/2B", "", "R", "R", "", ""),
