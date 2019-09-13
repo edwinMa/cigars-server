@@ -28,9 +28,9 @@ var games2019 = [
         new Event ("August 25", "4 PM", "Druid Hills", "Squeaks", "W 9-0", "forfeit", ""),
         new Event ("September 1", "", "", "No Game", "", "Labor Day Weekend", ""),
         new Event ("September 8", "4 PM", "South Gwinett", "@Muckdogs", "W 12-3", "makeup", ""),
-        new Event ("September 14", "12 PM", "Druid Hills", "TBD", "", "Playoff Game 1", ""),
-        new Event ("September 14", "3 PM", "Druid Hillls", "TBD", "", "Playoff Game 2", ""),
-        new Event ("September 15", "12 PM", "South Gwinett", "TBD", "", "Playoff Game 3 - If ncecessary", "")
+        new Event ("September 14", "12 PM", "Druid Hills", "@ Black Sox", "", "Playoff Game 1", ""),
+        new Event ("September 14", "3 PM", "Druid Hillls", "Black Sox", "", "Playoff Game 2", ""),
+        new Event ("September 15", "12 PM", "South Gwinett", "@ Black Sox", "", "Playoff Game 3 - If ncecessary", "")
 
 
 ];
