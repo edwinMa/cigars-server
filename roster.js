@@ -53,6 +53,12 @@ class Roster
             new Player ("Kameron Francisco", "Francisco", "1", "1B", "", "R", "R", "", ""),
             new Player ("Jarrett Smith", "Smith", "XX", "IF/OF/P", "", "R", "R", "", ""),
             new Player ("Adrian Prieto", "Suarez", "4", "IF/P/OF", "", "R", "R", "", ""),
+            new Player ("Joseph Lee", "Lee", "24", "1B", "", "R", "R", "", ""),
+            new Player ("Sam Beatty", "Beatty", "30", "P/OF", "", "R", "R", "", ""),
+            new Player ("Freddy Pena", "Pena", "32", "OF/2B", "", "R", "R", "", ""),
+            new Player ("Garrett Daily", "Dailey", "22", "OF", "", "L", "L", "", ""),
+            new Player ("Cole Goodwin", "Goodwin", "18", "P/2B", "", "R", "R", "", ""),
+            new Player ("Will Hesterlee", "Hesterlee", "11", "IF/OF", "", "R", "R", "", "")
 
             new Player ("Tony Plagman", "Plagman", "26", "OF/1B/P", "", "L", "L", "", "")
 
@@ -151,9 +157,9 @@ class Roster
             new Player ("Sam Beatty", "Beatty", "30", "P/OF", "", "R", "R", "", ""),
             new Player ("Luimar Pena", "LPena", "20", "P", "", "R", "R", "", ""),
             // new Player ("Will Hesterlee", "Hesterlee", "11", "IF/OF", "", "R", "R", "", "")
-
-
             ];
+
+            
 
             // projected core for 2020
             this.players2020 = [
@@ -170,8 +176,7 @@ class Roster
             new Player ("LeCorey Johnson", "Johnson", "4", "SS", "Georgia", "R", "R", "", ""),
             new Player ("Spencer Middleton", "Middleton", "1", "OF/P/1B", "Georgia", "R", "R", "", ""),
             new Player ("Omar Alladina", "Alladina", "9", "1B/3B", "", "R", "R", "", ""),
-            new Player ("Joseph Lee", "Lee", "24", "1B", "", "R", "R", "", ""),
-            new Player ("Luimar Pena", "LPena", "20", "P", "", "R", "R", "", ""),
+            new Player ("Luimar Pena", "LPena", "20", "P", "", "R", "R", "", "")
             ];
         
         
@@ -180,7 +185,7 @@ class Roster
     getRoster()
     {
         debug ("returning roster...");
-        return (this.players2019);
+        return (this.players2020);
     }
     
 }
