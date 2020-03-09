@@ -59,6 +59,8 @@ class Roster
             new Player ("Garrett Daily", "Dailey", "22", "OF", "", "L", "L", "", ""),
             new Player ("Cole Goodwin", "Goodwin", "18", "P/2B", "", "R", "R", "", ""),
             new Player ("Will Hesterlee", "Hesterlee", "11", "IF/OF", "", "R", "R", "", ""),
+            new Player ("John Little", "Little", "14", "P/1B", "West Palm Beach, FL", "R", "R", "", "images/players/14.jpg"),
+
 
             new Player ("Tony Plagman", "Plagman", "26", "OF/1B/P", "", "L", "L", "", "")
 
@@ -164,11 +166,11 @@ class Roster
             // projected core for 2020
             this.players2020 = [
             new Player ("Edwin Marcial", "Marcial", "19", "3B/2B", "Miami, FL", "R", "S", "When Doves Cry - Prince", "images/players/19.jpg"),
-            new Player ("John Little", "Little", "14", "P/1B", "West Palm Beach, FL", "R", "R", "", "images/players/14.jpg"),
+            
             new Player ("Colin Schaepe", "Shaepe", "37", "OF", "Green Bay, WI", "R", "R", "", "images/players/37.jpg"),
             new Player ("Rob Wodarczyk", "Wodarczk", "2", "OF", "Kernersville, NC", "R", "S", "", ""),
             new Player ("Sean Lennox", "Lennox", "16", "P", "Norcross, GA", "R", "R", "Givin the Dog a Bone - AC/DC", "images/players/16.jpg"),
-            new Player ("Phil Lucas", "Lucas", "50", "P", "", "R", "R", "", ""),
+            //new Player ("Phil Lucas", "Lucas", "50", "P", "", "R", "R", "", ""),
             new Player ("Cameron Yamanishi", "Yamanishi", "10", "OF/P", "", "R", "R", "", ""),
             new Player ("Ryan Flemming", "Flemming", "17", "C/3B", "", "R", "L", "", ""),
             new Player ("Mathew Powell", "Powell", "28", "P/1B", "", "L", "L", "", ""),
