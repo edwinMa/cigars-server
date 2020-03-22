@@ -176,12 +176,12 @@ class Roster
             new Player ("James Little", "Little", "3", "C/OF/P", "Farmers Branch, TX", "R", "R", "", "Shades of Gray - Robert Earl Keen"),
 
             // new ass of 2017
-            new Player ("LeCorey Johnson", "Johnson", "4", "SS", "Georgia", "R", "R", "", ""),
+            new Player ("LeCorey Johnson", "Johnson", "4", "SS/3B", "Georgia", "R", "R", "", ""),
 
             // new as of 2018
-            new Player ("Spencer Middleton", "Middleton", "1", "OF/P/1B", "Georgia", "R", "R", "", ""),
-            new Player ("Omar Alladina", "Alladina", "9", "1B/3B", "", "R", "R", "", ""),
-            new Player ("Luimar Pena", "LPena", "20", "P", "", "R", "R", "", ""),
+            new Player ("Spencer Middleton", "Middleton", "1", "OF/P", "Georgia", "R", "R", "", ""),
+            new Player ("Omar Alladina", "Alladina", "9", "1B/3B/P", "", "R", "R", "", ""),
+            new Player ("Luimar Pena", "LPena", "20", "P/1B", "", "R", "R", "", ""),
             new Player ("Mathew Powell", "Powell", "28", "P/1B", "", "L", "L", "", ""),
 
             // new for 2020
