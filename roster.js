@@ -170,15 +170,29 @@ class Roster
             new Player ("Colin Schaepe", "Shaepe", "37", "OF", "Green Bay, WI", "R", "R", "", "images/players/37.jpg"),
             new Player ("Rob Wodarczyk", "Wodarczk", "2", "OF", "Kernersville, NC", "R", "S", "", ""),
             new Player ("Sean Lennox", "Lennox", "16", "P", "Norcross, GA", "R", "R", "Givin the Dog a Bone - AC/DC", "images/players/16.jpg"),
-            //new Player ("Phil Lucas", "Lucas", "50", "P", "", "R", "R", "", ""),
+            new Player ("Phil Lucas", "Lucas", "50", "P", "", "R", "R", "", ""),
             new Player ("Cameron Yamanishi", "Yamanishi", "10", "OF/P", "", "R", "R", "", ""),
             new Player ("Ryan Flemming", "Flemming", "17", "C/3B", "", "R", "L", "", ""),
-            new Player ("Mathew Powell", "Powell", "28", "P/1B", "", "L", "L", "", ""),
             new Player ("James Little", "Little", "3", "C/OF/P", "Farmers Branch, TX", "R", "R", "", "Shades of Gray - Robert Earl Keen"),
+
+            // new ass of 2017
             new Player ("LeCorey Johnson", "Johnson", "4", "SS", "Georgia", "R", "R", "", ""),
+
+            // new as of 2018
             new Player ("Spencer Middleton", "Middleton", "1", "OF/P/1B", "Georgia", "R", "R", "", ""),
             new Player ("Omar Alladina", "Alladina", "9", "1B/3B", "", "R", "R", "", ""),
-            new Player ("Luimar Pena", "LPena", "20", "P", "", "R", "R", "", "")
+            new Player ("Luimar Pena", "LPena", "20", "P", "", "R", "R", "", ""),
+            new Player ("Mathew Powell", "Powell", "28", "P/1B", "", "L", "L", "", ""),
+
+            // new for 2020
+            new Player ("Avery Seckinger", "Seckinger", "XX", "P", "", "R", "S", "", ""),
+            new Player ("Eric Jordan", "Jordan", "XX", "IF/OF", "", "R", "S", "", ""),
+            new Player ("Jah-Neel Warner", "Warner", "XX", "OF", "", "R", "S", "", ""),
+            new Player ("Mathew Connelly", "Connelly", "XX", "IF/P", "", "R", "R", "", ""),
+            new Player ("Tyler Roberts", "Roberts", "XX", "SS", "", "R", "R", "", ""),
+            new Player ("Will Robertson", "Robertson", "XX", "P/OF/IF", "", "R", "R", "", ""),
+            new Player ("Ryan Powell", "Powell", "XX", "OF", "", "R", "R", "", "")
+
             ];
         
         
