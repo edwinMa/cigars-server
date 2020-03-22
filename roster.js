@@ -181,13 +181,13 @@ class Roster
             // new as of 2018
             new Player ("Spencer Middleton", "Middleton", "1", "OF/P", "Georgia", "R", "R", "", ""),
             new Player ("Omar Alladina", "Alladina", "9", "1B/3B/P", "", "R", "R", "", ""),
-            new Player ("Luimar Pena", "LPena", "20", "P/1B", "", "R", "R", "", ""),
+            new Player ("Luimar Pena", "LPena", "20", "P/1B", "", "R", "S", "", ""),
             new Player ("Mathew Powell", "Powell", "28", "P/1B", "", "L", "L", "", ""),
 
             // new for 2020
-            new Player ("Avery Seckinger", "Seckinger", "XX", "P", "", "R", "S", "", ""),
+            new Player ("Avery Seckinger", "Seckinger", "XX", "P", "", "R", "R", "", ""),
             new Player ("Eric Jordan", "Jordan", "XX", "IF/OF", "", "R", "S", "", ""),
-            new Player ("Jah-Neel Warner", "Warner", "XX", "OF", "", "R", "S", "", ""),
+            new Player ("Jah-Neel Warner", "Warner", "XX", "OF", "", "R", "R", "", ""),
             new Player ("Mathew Connelly", "Connelly", "XX", "IF/P", "", "R", "R", "", ""),
             new Player ("Tyler Roberts", "Roberts", "XX", "SS", "", "R", "R", "", ""),
             new Player ("Will Robertson", "Robertson", "XX", "P/OF/IF", "", "R", "R", "", ""),
