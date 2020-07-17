@@ -167,9 +167,13 @@ class Roster
             this.players2020 = [
             new Player ("Edwin Marcial", "Marcial", "19", "3B/2B", "Miami, FL", "R", "S", "When Doves Cry - Prince", "images/players/19.jpg"),
             
+            // 2014
             new Player ("Colin Schaepe", "Shaepe", "37", "OF", "Green Bay, WI", "R", "R", "", "images/players/37.jpg"),
             new Player ("Rob Wodarczyk", "Wodarczk", "2", "OF", "Kernersville, NC", "R", "S", "", ""),
+
+            //2015
             new Player ("Sean Lennox", "Lennox", "16", "P", "Norcross, GA", "R", "R", "Givin the Dog a Bone - AC/DC", "images/players/16.jpg"),
+
             new Player ("Phil Lucas", "Lucas", "50", "P", "", "R", "R", "", ""),
             new Player ("Cameron Yamanishi", "Yamanishi", "10", "OF/P", "", "R", "R", "", ""),
             new Player ("Ryan Flemming", "Flemming", "17", "C/3B", "", "R", "L", "", ""),
@@ -187,10 +191,10 @@ class Roster
             // new for 2020
             new Player ("Avery Seckinger", "Seckinger", "XX", "P", "", "R", "R", "", ""),
             new Player ("Eric Jordan", "Jordan", "XX", "IF/OF", "", "R", "S", "", ""),
-            new Player ("Jah-Neel Warner", "Warner", "XX", "OF", "", "R", "R", "", ""),
+            new Player ("Jah-Neel Warner", "Warner", "11", "OF", "", "R", "R", "", ""),
             new Player ("Mathew Connelly", "Connelly", "XX", "IF/P", "", "R", "R", "", ""),
-            new Player ("Tyler Roberts", "Roberts", "XX", "SS", "", "R", "R", "", ""),
-            new Player ("Will Robertson", "Robertson", "XX", "P/OF/IF", "", "R", "R", "", ""),
+            new Player ("Tyler Roberts", "Roberts", "34", "SS", "", "R", "R", "", ""),
+            new Player ("Will Robertson", "Robertson", "30", "P/OF/IF", "", "R", "R", "", ""),
             new Player ("Ryan Powell", "Powell", "XX", "OF", "", "R", "R", "", "")
 
             ];
