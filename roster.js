@@ -191,7 +191,7 @@ class Roster
             // new for 2020
             new Player ("Avery Seckinger", "Seckinger", "XX", "P", "", "R", "R", "", ""),
             new Player ("Eric Jordan", "Jordan", "XX", "IF/OF", "", "R", "S", "", ""),
-            new Player ("Jah-Neel Warner", "Warner", "11", "OF", "", "R", "R", "", ""),
+            new Player ("Jah-Neel Warner", "Warner", "xx", "OF", "", "R", "R", "", ""),
             new Player ("Mathew Connelly", "Connelly", "27", "IF/P", "", "R", "R", "", ""),
             new Player ("Tyler Roberts", "Roberts", "34", "SS", "", "R", "R", "", ""),
             new Player ("Will Robertson", "Robertson", "30", "P/OF/IF", "", "R", "R", "", ""),
