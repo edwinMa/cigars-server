@@ -165,7 +165,7 @@ class Roster
 
             // projected core for 2020
             this.players2020 = [
-            new Player ("Edwin Marcial", "Marcial", "19", "3B/2B", "Miami, FL", "R", "S", "When Doves Cry - Prince", "images/players/19.jpg"),
+            new Player ("Edwin Marcial", "Marcial", "19", "2B/3B", "Miami, FL", "R", "S", "When Doves Cry - Prince", "images/players/19.jpg"),
             
             // 2014
             new Player ("Colin Schaepe", "Shaepe", "37", "OF", "Green Bay, WI", "R", "R", "", "images/players/37.jpg"),
@@ -191,11 +191,11 @@ class Roster
             // new for 2020
             new Player ("Avery Seckinger", "Seckinger", "XX", "P", "", "R", "R", "", ""),
             new Player ("Eric Jordan", "Jordan", "11", "IF/OF", "", "R", "S", "", ""),
-            new Player ("Jah-Neel Warner", "Warner", "xx", "OF", "", "R", "R", "", ""),
+            new Player ("Jah-Neel Warner", "Warner", "8", "OF", "", "R", "R", "", ""),
             new Player ("Mathew Connelly", "Connelly", "27", "IF/P", "", "R", "R", "", ""),
             new Player ("Tyler Roberts", "Roberts", "34", "SS", "", "R", "R", "", ""),
             new Player ("Will Robertson", "Robertson", "30", "P/OF/IF", "", "R", "R", "", ""),
-            new Player ("Ryan Powell", "Powell", "XX", "OF", "", "R", "R", "", "")
+            new Player ("Ryan Powell", "Powell", "40", "C/OF", "", "R", "R", "", "")
 
             ];
         
