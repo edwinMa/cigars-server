@@ -4,7 +4,12 @@ var debug = require ('./debug');
 
 var games2020 = [
         new Event ("Sun July 19", "1:15 PM", "Osborne", "Muckdogs", "W 8-0", "", ""),
-        new Event ("Sun July 26", "4:30 PM", "South Cobb", "@Tainos", "", "", "")
+        new Event ("Sun July 26", "4:30 PM", "South Cobb", "@Tainos", "W 2-0", "", ""),
+        new Event ("Sun Aug 2", "12 PM", "Big Shanty", "Cherokees", "", "", ""),
+        new Event ("Sun Aug 9", "", "", "@Cobb Angels", "", "", "")
+
+
+
 ];
 
 var games2019 = [
