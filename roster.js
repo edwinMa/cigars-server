@@ -183,7 +183,7 @@ class Roster
             new Player ("LeCorey Johnson", "Johnson", "4", "SS/3B", "Georgia", "R", "R", "", ""),
 
             // new as of 2018
-            new Player ("Spencer Middleton", "Middleton", "1", "OF/P", "Georgia", "R", "R", "", ""),
+            new Player ("Spencer Middleton", "Middleton", "1", "CF/P", "Georgia", "R", "R", "", ""),
             new Player ("Omar Alladina", "Alladina", "9", "1B/3B/P", "", "R", "R", "", ""),
             new Player ("Luimar Pena", "LPena", "20", "P/1B", "", "R", "S", "", ""),
             new Player ("Mathew Powell", "Powell", "28", "P/1B", "", "L", "L", "", ""),
