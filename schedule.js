@@ -6,8 +6,19 @@ var games2020 = [
         new Event ("Sun July 19", "1:15 PM", "Osborne", "Muckdogs", "W 8-0", "", ""),
         new Event ("Sun July 26", "4:30 PM", "South Cobb", "@Tainos", "W 2-0", "", ""),
         new Event ("Sun Aug 2", "12 PM", "Big Shanty", "Cherokees", "L 5-2", "", ""),
-        new Event ("Sun Aug 9", "", "", "@Cobb Angels", "", "", "")
+        new Event ("Sun Aug 9", "430 PM", "South Cobb", "@Cobb Angels", "W 15-5", "", ""),
+        new Event ("Sun Aug 16", "130 PM", "South Cobb", "@Squeaks", "", "", ""),
 
+        new Event ("Sun Aug 16", "130 PM", "South Cobb", "@Squeaks", "", "", ""),
+        new Event ("Sun Aug 23", "130 PM", "South Cobb", "Black Sox", "", "", ""),
+
+        new Event ("Sun Aug 30", "TBD", "TBD", "@Dragons", "", "", "")
+
+        /*
+        new Event ("Sun Aug 16", "130 PM", "South Cobb", "@Squeaks", "", "", ""),
+        new Event ("Sun Aug 16", "130 PM", "South Cobb", "@Squeaks", "", "", ""),
+        new Event ("Sun Aug 16", "130 PM", "South Cobb", "@Squeaks", "", "", ""),
+        */
 
 
 ];
