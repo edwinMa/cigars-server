@@ -9,9 +9,9 @@ var games2020 = [
         new Event ("Sun Aug 9", "430 PM", "South Cobb", "@Cobb Angels", "W 15-5", "", ""),
         new Event ("Sun Aug 16", "130 PM", "Osborne", "@Squeaks", "T 2-2", "", ""),
 
-        new Event ("Sun Aug 23", "130 PM", "South Cobb", "Black Sox", "", "", ""),
+        new Event ("Sun Aug 23", "130 PM", "South Cobb", "Black Sox", "T 8-8", "", ""),
 
-        new Event ("Sun Aug 30", "TBD", "TBD", "@Dragons", "", "", "")
+        new Event ("Sun Aug 30", "10 AM", "Osborne", "@Dragons", "", "", "")
 
         /*
         new Event ("Sun Aug 16", "130 PM", "South Cobb", "@Squeaks", "", "", ""),
