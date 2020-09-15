@@ -8,26 +8,20 @@ var games2020 = [
         new Event ("Sun Aug 2", "12 PM", "Big Shanty", "Cherokees", "L 5-2", "", ""),
         new Event ("Sun Aug 9", "430 PM", "South Cobb", "@Cobb Angels", "W 15-5", "", ""),
         new Event ("Sun Aug 16", "130 PM", "Osborne", "@Squeaks", "T 2-2", "", ""),
-
         new Event ("Sun Aug 23", "130 PM", "South Cobb", "Black Sox", "T 8-8", "", ""),
-
         new Event ("Sun Aug 30", "10 AM", "Osborne", "@Dragons", "L 19-5", "", ""),
-
         new Event ("Sun Sep 13", "130 PM", "Osborne", "@Black Sox", "W 8-6", "", ""),
         new Event ("Sun Sep 20", "130 PM", "Osborne", "Dragons", "", "", ""),
         new Event ("Sun Sep 27", "10 AM", "Pebblebrook", "Muckdogs", "", "", ""),
         new Event ("Sun Oct 4", "130 PM", "Osborne", "@Cobb Angels", "", "", ""),
-
-
-
-        /*
-        new Event ("Sun Aug 16", "130 PM", "South Cobb", "@Squeaks", "", "", ""),
-        new Event ("Sun Aug 16", "130 PM", "South Cobb", "@Squeaks", "", "", ""),
-        new Event ("Sun Aug 16", "130 PM", "South Cobb", "@Squeaks", "", "", ""),
-        */
-
+        new Event ("Sun Oct 11", "TBD", "TBD", "Playoff Wildcard", "", "", ""),
+        new Event ("Sun Oct 18", "TBD", "TBD", "Playoff SemiFinal", "", "", ""),
+        new Event ("Sat Oct 24", "TBD", "TBD", "Playoff Final Game 1", "", "", ""),
+        new Event ("Sat Oct 24", "TBD", "TBD", "Playoff Final Game 2", "", "", ""),
+        new Event ("Sun Oct 25", "TBD", "TBD", "Playoff Final Game 3", "", "", "")
 
 ];
+
 
 var games2019 = [
         new Event ("April 7", "12 PM", "Druid Hills", "@Buckhead Squeaks", "Postponed", "Opening Day", ""),
