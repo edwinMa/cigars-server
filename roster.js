@@ -184,18 +184,25 @@ class Roster
 
             // new as of 2018
             new Player ("Spencer Middleton", "Middleton", "1", "CF/P", "Georgia", "R", "R", "", ""),
-            new Player ("Omar Alladina", "Alladina", "9", "1B/3B/P", "", "R", "R", "", ""),
             new Player ("Luimar Pena", "LPena", "20", "P/1B", "", "R", "S", "", ""),
             new Player ("Mathew Powell", "Powell", "28", "P/1B", "", "L", "L", "", ""),
 
             // new for 2020
-            new Player ("Avery Seckinger", "Seckinger", "XX", "P", "", "R", "R", "", ""),
             new Player ("Eric Jordan", "Jordan", "11", "IF/OF", "", "R", "S", "", ""),
             new Player ("Jah-Neel Warner", "Warner", "8", "OF", "", "R", "R", "", ""),
             new Player ("Mathew Connelly", "Connelly", "27", "IF/P", "", "R", "R", "", ""),
             new Player ("Tyler Roberts", "Roberts", "34", "SS", "", "R", "R", "", ""),
             new Player ("Will Robertson", "Robertson", "30", "P/OF/IF", "", "R", "R", "", ""),
-            new Player ("Ryan Powell", "Powell", "40", "C/OF", "", "R", "R", "", "")
+            new Player ("Ryan Powell", "Powell", "40", "C/OF", "", "R", "R", "", ""),
+            
+            new Player ("Jason Rogers", "Rogers", "29", "1B/OF", "", "R", "R", "", ""),
+
+            new Player ("Mathew Childree", "Childree", "6", "P", "", "R", "R", "", ""),
+            new Player ("Mason Colquitt", "Colquitt", "41", "P", "", "L", "L", "", ""),
+
+            new Player ("Mike Krill", "Krill", "XX", "P", "", "R", "R", "", ""),
+
+
 
             ];
         
