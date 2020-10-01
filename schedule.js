@@ -12,7 +12,7 @@ var games2020 = [
         new Event ("Sun Aug 30", "10 AM", "Osborne", "@Dragons", "L 19-5", "", ""),
         new Event ("Sun Sep 13", "130 PM", "Osborne", "@Black Sox", "W 8-6", "", ""),
         new Event ("Sun Sep 20", "130 PM", "Osborne", "Dragons", "W 7-3", "", ""),
-        new Event ("Sun Sep 27", "10 AM", "Pebblebrook", "Muckdogs", "", "", ""),
+        new Event ("Sun Sep 27", "10 AM", "Pebblebrook", "Muckdogs", "L 9-2", "", ""),
         new Event ("Sun Oct 4", "130 PM", "Osborne", "@Cobb Angels", "", "", ""),
         new Event ("Sun Oct 11", "TBD", "TBD", "Playoff Round 1", "", "", ""),
         new Event ("Sun Oct 18", "TBD", "TBD", "Playoff Semi-Final", "", "", ""),
