@@ -176,7 +176,7 @@ class Roster
 
             new Player ("Phil Lucas", "Lucas", "50", "P", "", "R", "R", "", ""),
             new Player ("Cameron Yamanishi", "Yamanishi", "10", "OF/P", "", "R", "R", "", ""),
-            new Player ("Ryan Flemming", "Flemming", "17", "C/3B", "", "R", "L", "", ""),
+            // new Player ("Ryan Flemming", "Flemming", "17", "C/3B", "", "R", "L", "", ""),
             new Player ("James Little", "Little", "3", "C/OF/P", "Farmers Branch, TX", "R", "R", "", "Shades of Gray - Robert Earl Keen"),
 
             // new ass of 2017
@@ -198,9 +198,9 @@ class Roster
             new Player ("Jason Rogers", "Rogers", "29", "1B/OF", "", "R", "R", "", ""),
 
             new Player ("Mathew Childree", "Childree", "6", "P", "", "R", "R", "", ""),
-            new Player ("Mason Colquitt", "Colquitt", "41", "P", "", "L", "L", "", ""),
+            new Player ("Mason Colquitt", "Colquitt", "41", "P", "", "L", "L", "", "")
 
-            new Player ("Mike Krill", "Krill", "XX", "P", "", "R", "R", "", ""),
+            // new Player ("Mike Krill", "Krill", "XX", "P", "", "R", "R", "", ""),
 
 
 
