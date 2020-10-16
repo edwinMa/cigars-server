@@ -14,11 +14,13 @@ var games2020 = [
         new Event ("Sun Sep 20", "130 PM", "Osborne", "Dragons", "W 7-3", "", ""),
         new Event ("Sun Sep 27", "10 AM", "Pebblebrook", "Muckdogs", "L 9-2", "", ""),
         new Event ("Sun Oct 4", "130 PM", "Osborne", "@Cobb Angels", "W 11-1", "", ""),
-        new Event ("Sun Oct 11", "TBD", "TBD", "Playoff Round 1", "", "", ""),
-        new Event ("Sun Oct 18", "TBD", "TBD", "Playoff Semi-Final", "", "", ""),
-        new Event ("Sat Oct 24", "TBD", "TBD", "Playoff Finals - Game 1", "", "", ""),
-        new Event ("Sat Oct 24", "TBD", "TBD", "Playoff Finals - Game 2", "", "", ""),
-        new Event ("Sun Oct 25", "TBD", "TBD", "Playoff Finals - Game 3", "", "", "")
+        // new Event ("Sun Oct 11", "TBD", "TBD", "Playoff Round 1", "rained out", "", ""),
+        new Event ("Sun Oct 18", "TBD", "TBD", "Playoff Round 1", "", "", ""),
+
+        new Event ("Sun Oct 24", "TBD", "TBD", "Playoff Semi-Final", "", "", ""),
+        new Event ("Sat Oct 31", "TBD", "TBD", "Playoff Finals - Game 1", "", "", ""),
+        new Event ("Sat Oct 31", "TBD", "TBD", "Playoff Finals - Game 2", "", "", ""),
+        new Event ("Sun Nov 1", "TBD", "TBD", "Playoff Finals - Game 3", "", "", "")
 
 ];
 
