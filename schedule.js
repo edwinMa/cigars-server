@@ -18,7 +18,7 @@ var games2020 = [
         new Event ("Sun Oct 18", "510 PM", "Osborne", "Muckdogs", "W 6-3", "Playoff Round 1", ""),
 
         new Event ("Sun Oct 24", "130 PM", "Osborne", "Cherokees", "PPD - Rain", "Playoff Semi-Final", ""),
-        new Event ("Tue Oct 27", "745 PM", "Osborne", "Cherokees", "W 9-7", "Playoff Semi-Final", "https://www.cnn.com"),
+        new Event ("Tue Oct 27", "745 PM", "Osborne", "Cherokees", "W 9-7", "Playoff Semi-Final", ""),
 
         new Event ("Sat Nov 7", "TBD", "TBD", "TBD", "", "Playoff Finals - Game 1", ""),
         new Event ("Sat Nov 7", "TBD", "TBD", "TBD", "", "Playoff Finals - Game 2", ""),
