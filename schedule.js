@@ -21,9 +21,9 @@ var games2020 = [
         new Event ("Sun Oct 24", "130 PM", "Osborne", "Cherokees", "PPD - Rain", "Playoff Semi-Final", ""),
         new Event ("Tue Oct 27", "745 PM", "Osborne", "Cherokees", "W 9-7", "Playoff Semi-Final", ""),
 
-        new Event ("Sat Nov 15", "1 PM", "TBD", "Tainos", "", "Playoff Finals - Game 1", ""),
-        new Event ("Sat Nov 15", "4 PM", "TBD", "@Tainos", "", "Playoff Finals - Game 2", ""),
-        new Event ("Sun Nov 22", "TBD", "TBD", "Tainos", "", "Playoff Finals - Game 3", "")
+        new Event ("Sat Nov 15", "1 PM", "Pebblebrook", "Tainos", "", "Playoff Finals - Game 1", "L 14-1"),
+        new Event ("Sat Nov 15", "4 PM", "Pebblebrook", "@Tainos", "", "Playoff Finals - Game 2", "W 6-4"),
+        new Event ("Sun Nov 22", "1230 PM", "Lake Point", "Tainos", "", "Playoff Finals - Game 3", "")
 
 ];
 
