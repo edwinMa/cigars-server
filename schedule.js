@@ -1,6 +1,11 @@
 
 var debug = require ('./debug');
 
+var games2021 = [
+        // last column is a url link that links back from the date - first column
+        new Event ("Sun Nov 22", "1230 PM", "Lake Point", "Tainos", "L 11-2", "Playoff Finals - Game 3", ""),
+        new Event ("Sun April 11", "4:00 PM", "South Cobb", "@Cherokees", "", "", "")
+        
 
 var games2020 = [
         // last column is a url link that links back from the date - first column
