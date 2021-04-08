@@ -60,7 +60,12 @@ class Roster
             new Player ("Cole Goodwin", "Goodwin", "18", "P/2B", "", "R", "R", "", ""),
             new Player ("Will Hesterlee", "Hesterlee", "11", "IF/OF", "", "R", "R", "", ""),
             new Player ("John Little", "Little", "14", "P/1B", "West Palm Beach, FL", "R", "R", "", "images/players/14.jpg"),
+            new Player ("Colin Schaepe", "Shaepe", "37", "OF", "Green Bay, WI", "R", "R", "", "images/players/37.jpg"), // 2014
+            new Player ("Phil Lucas", "Lucas", "50", "P", "", "R", "R", "", ""), //2015
+            new Player ("Ryan Flemming", "Flemming", "17", "C/3B", "", "R", "L", "", ""), // 2015
 
+            new Player ("Tyler Roberts", "Roberts", "34", "SS", "", "R", "R", "", ""), // 2020
+            new Player ("Will Robertson", "Robertson", "30", "P/OF/IF", "", "R", "R", "", ""), //2020
 
             new Player ("Tony Plagman", "Plagman", "26", "OF/1B/P", "", "L", "L", "", "")
 
@@ -168,13 +173,11 @@ class Roster
             new Player ("Edwin Marcial", "Marcial", "19", "2B/3B", "Miami, FL", "R", "S", "When Doves Cry - Prince", "images/players/19.jpg"),
             
             // 2014
-            new Player ("Colin Schaepe", "Shaepe", "37", "OF", "Green Bay, WI", "R", "R", "", "images/players/37.jpg"),
             new Player ("Rob Wodarczyk", "Wodarczk", "2", "OF", "Kernersville, NC", "R", "S", "", ""),
 
             //2015
             new Player ("Sean Lennox", "Lennox", "16", "P", "Norcross, GA", "R", "R", "Givin the Dog a Bone - AC/DC", "images/players/16.jpg"),
 
-            new Player ("Phil Lucas", "Lucas", "50", "P", "", "R", "R", "", ""),
             new Player ("Cameron Yamanishi", "Yamanishi", "10", "OF/P", "", "R", "R", "", ""),
             // new Player ("Ryan Flemming", "Flemming", "17", "C/3B", "", "R", "L", "", ""),
             new Player ("James Little", "Little", "3", "C/OF/P", "Farmers Branch, TX", "R", "R", "", "Shades of Gray - Robert Earl Keen"),
@@ -206,13 +209,53 @@ class Roster
 
             ];
         
+
+        this.players2021 = [
+            // 2003
+            new Player ("Edwin Marcial", "Marcial", "19", "2B/3B", "Miami, FL", "R", "S", "When Doves Cry - Prince", "images/players/19.jpg"),
+            
+            // 2014
+            new Player ("Rob Wodarczyk", "Wodarczk", "2", "OF", "Kernersville, NC", "R", "S", "", ""),
+
+            //2015
+            new Player ("Sean Lennox", "Lennox", "16", "P", "Norcross, GA", "R", "R", "Givin the Dog a Bone - AC/DC", "images/players/16.jpg"),
+            new Player ("Cameron Yamanishi", "Yamanishi", "10", "OF/P", "", "R", "R", "", ""),
+            new Player ("James Little", "Little", "3", "C/OF/P", "Farmers Branch, TX", "R", "R", "", "Shades of Gray - Robert Earl Keen"),
+
+            // new ass of 2017
+            new Player ("LeCorey Johnson", "Johnson", "4", "SS/3B", "Georgia", "R", "R", "", ""),
+
+            // new as of 2018
+            new Player ("Spencer Middleton", "Middleton", "1", "CF/P", "Georgia", "R", "R", "", ""),
+            new Player ("Luimar Pena", "LPena", "20", "P/1B", "", "R", "S", "", ""),
+            new Player ("Mathew Powell", "Powell", "28", "P/1B", "", "L", "L", "", ""),
+
+            // new for 2020
+            new Player ("Eric Jordan", "Jordan", "11", "IF/OF", "", "R", "S", "", ""),
+            new Player ("Jah-Neel Warner", "Warner", "8", "OF", "", "R", "R", "", ""),
+            new Player ("Mathew Connelly", "Connelly", "27", "IF/P", "", "R", "R", "", ""),
+            new Player ("Ryan Powell", "Powell", "40", "C/OF", "", "R", "R", "", ""),
+            new Player ("Jason Rogers", "Rogers", "29", "1B/OF", "", "R", "R", "", ""),
+            new Player ("Mathew Childree", "Childree", "6", "P", "", "R", "R", "", ""),
+            new Player ("Mason Colquitt", "Colquitt", "41", "P", "", "L", "L", "", ""),
+
+            // new for 2021
+            new Player ("Hans Hansen", "Hansen", "XX", "P", "", "R", "R", "", ""),
+            new Player ("Milton Adorno", "Adorno", "XX", "OF/1B", "", "R", "R", "", ""),
+            new Player ("Scott Miller", "Miller", "XX", "OF", "", "R", "R", "", ""),
+
+            new Player ("Place Holder", "Holder", "XX", "U", "", "L", "L", "", "")
+
+
+            ];
+        
         
     }
 
     getRoster()
     {
         debug ("returning roster...");
-        return (this.players2020);
+        return (this.players2021);
     }
     
 }
