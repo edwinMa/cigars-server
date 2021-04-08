@@ -224,8 +224,8 @@ function Event(date, time, field, opponent, result, note, eviteURL)
 function Schedule()
 {
     // last column is for evite link
-    this.events = games2020;
-    this.year = "2020";
+    this.events = games2021;
+    this.year = "2021";
 }
 
 
