@@ -9,7 +9,10 @@ var games2021 = [
         new Event ("Sun May 2", "3:00 PM", "Hunter Park", "Tainos", "L 5-4", "", ""),
         new Event ("Sun May 16", "12:00 PM", "Shamrock", "Tornados", "W 11-3", "", ""),
         new Event ("Sun May 23", "12:00 PM", "Shamrock", "@Cobb Angels", "W 14-2", "", ""),
-        new Event ("Sun June 6", "12:00 PM", "Shamrock", "Dragons", "", "", "")
+        new Event ("Sun June 6", "12:00 PM", "Shamrock", "Dragons", "L 6-3", "", ""), 
+        new Event ("Sun June 13", "12:00 PM", "Shamrock", "@ Muckdogs", "W 7-3", "", ""), 
+        new Event ("Sun June 20", "11:00 AM", "Shamrock", "@ Black Sox", "", "", ""), 
+
 
         
 ];
