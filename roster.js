@@ -240,11 +240,10 @@ class Roster
             new Player ("Mason Colquitt", "Colquitt", "41", "P", "", "L", "L", "", ""),
 
             // new for 2021
-            new Player ("Hans Hansen", "Hansen", "XX", "P", "", "R", "R", "", ""),
-            new Player ("Milton Adorno", "Adorno", "XX", "OF/1B", "", "R", "R", "", ""),
+            new Player ("Hans Hansen", "Hansen", "36", "P", "", "R", "R", "", ""),
+            new Player ("Milton Adorno", "Adorno", "26", "OF/1B", "", "R", "R", "", ""),
             new Player ("Scott Miller", "Miller", "XX", "OF", "", "R", "R", "", ""),
-
-            new Player ("Place Holder", "Holder", "XX", "U", "", "L", "L", "", "")
+            new Player ("Theo Tramontana", "Tramontana", "17", "IF/OF/P", "", "R", "R", "", "")
 
 
             ];
