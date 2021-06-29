@@ -242,7 +242,7 @@ class Roster
             // new for 2021
             new Player ("Hans Hansen", "Hansen", "36", "P", "", "R", "R", "", ""),
             new Player ("Milton Adorno", "Adorno", "26", "OF/1B", "", "R", "R", "", ""),
-            new Player ("Scott Miller", "Miller", "XX", "OF", "", "R", "R", "", ""),
+            new Player ("Scott Miller", "Miller", "5", "OF", "", "R", "R", "", ""),
             new Player ("Theo Tramontana", "Tramontana", "17", "IF/OF/P", "", "R", "R", "", "")
 
 
