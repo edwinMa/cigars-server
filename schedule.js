@@ -22,11 +22,11 @@ var games2021 = [
         new Event ("Sun Aug 22", "10:00 AM", "Shamrock", "Muckdogs", "W ", "", ""), 
         new Event ("Sun Aug 22", "1:00 PM", "Shamrock", "Spades", "W", "", ""), 
         new Event ("Sun Aug 29", "10:30 AM", "Shamrock", "Squeaks", "W 5-2", "", ""),
-        new Event ("Sun Sep 11", "1:00 PM", "Shamrock", "Angels", "W 6-5", "Playoff Round 1 - Game 1", ""),
-        new Event ("Sun Sep 11", "3:35 PM", "Shamrock", "@ Angels", "W 15-6", "Playoff Round 1 - Game 2", ""),
-        new Event ("Sun Sep 18", "TBD", "TBD", "Muckdogs", "", "Playoff Semi-Final - Game 1", ""),
-        new Event ("Sun Sep 18", "TBD", "TBD", "@ Muckdogs", "", "Playoff Semi-Final - Game 2", ""),
-        new Event ("Sun Sep 19", "TBD", "TBD", "Muckdogs", "", "Playoff Semi-Final - Game 3", "")
+        new Event ("Sat Sep 11", "1:00 PM", "Shamrock", "Angels", "W 6-5", "Playoff Round 1 - Game 1", ""),
+        new Event ("Sat Sep 11", "3:35 PM", "Shamrock", "@ Angels", "W 15-6", "Playoff Round 1 - Game 2", ""),
+        new Event ("Sat Sep 18", "12 PM", "Shamrock", "Muckdogs", "L 4-3", "Playoff Semi-Final - Game 1", ""),
+        new Event ("Sat Sep 18", "3 PM", "Shamrock", "@ Muckdogs", "W 4-1", "Playoff Semi-Final - Game 2", ""),
+        new Event ("Sun Sep 26", "11 AM", "Shamrock", "Muckdogs", "", "Playoff Semi-Final - Game 3", "")
 
 ];
 
