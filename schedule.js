@@ -4,7 +4,11 @@ var debug = require ('./debug');
 var games2022 = [
         // last column is a url link that links back from the date - first column
         new Event ("Sun April 3", "12:00 PM", "Shamrock", "@Dragons", "L 2-3", "", ""),
-        new Event ("Sun April 10", "12:00 PM", "Shamrock", "Squeaks", "W 7-5", "", "")
+        new Event ("Sun April 10", "12:00 PM", "Shamrock", "Squeaks", "W 7-5", "", ""),
+        new Event ("Sun April 24", "12:00 PM", "Shamrock", "Cherokees", "", "", ""),
+        new Event ("Sun May 1", "12:00 PM", "Shamrock", "Black Sox", "", "", "")
+
+
 
 ];
 
@@ -259,8 +263,8 @@ function Event(date, time, field, opponent, result, note, eviteURL)
 function Schedule()
 {
     // last column is for evite link
-    this.events = games2021;
-    this.year = "2021";
+    this.events = games2022;
+    this.year = "2022";
 }
 
 
