@@ -14,7 +14,7 @@ var games2022 = [
         new Event ("Sun June 19", "1:00 PM", "Berkmar", "@Black Sox", "W 6-3", "", ""),
         new Event ("Sun June 26", "3:00 PM", "South Gwinett", "Outlaws", "W 5-4", "", ""),
         new Event ("Sun July 10", "1:00 PM", "Berkmar", "@Midtown Magic", "PPD-Rain", "", ""),
-        new Event ("Sun July 17", "2:00 PM", "Osborne", "@Cherokees", "", "", ""),
+        new Event ("Sun July 17", "2:00 PM", "Osborne", "@Cherokees", "T 7-7", "", ""),
         new Event ("Sun July 24", "1:00 PM", "South Cobb", "Cobb Angels", "", "", ""),
         new Event ("Sun July 31", "11:00 AM", "Maynard Jackson", "ABC", "", "", ""),
         new Event ("Sun August 7", "12:00 PM", "South Gwinett", "@Giants", "", "", ""),
