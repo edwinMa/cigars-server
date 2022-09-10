@@ -288,7 +288,7 @@ class Roster
 
             // new for 2022
             new Player ("Kevin Echeveria", "Echeveria", "18", "C", "", "R", "R", "", ""),
-            new Player ("Luis Garcia", "Garcia", "00", "P", "", "R", "R", "", ""),
+            new Player ("Luis Garcia", "Garcia", "13", "P", "", "R", "R", "", ""),
 
             // new Player ("AJ Nettles", "Nettles", "37", "P", "", "R", "R", "", "")
             new Player ("Jimmy Hand", "Hand", "33", "OF", "", "R", "L", "", ""),
