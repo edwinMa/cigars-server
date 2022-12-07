@@ -13,7 +13,7 @@ var games2022 = [
         new Event ("Sun June 12", "10:00 AM", "Tucker High School", "Dragons", "L 13-5", "", ""),
         new Event ("Sun June 19", "1:00 PM", "Berkmar", "@Black Sox", "W 6-3", "", ""),
         new Event ("Sun June 26", "3:00 PM", "South Gwinett", "Outlaws", "W 5-4", "", ""),
-        new Event ("Sun July 10", "1:00 PM", "Berkmar", "@Midtown Magic", "PPD-Rain", "", "makeup tbd"),
+        new Event ("Sun July 10", "1:00 PM", "Berkmar", "@Midtown Magic", "PPD-Rain", "", ""),
         new Event ("Sun July 17", "2:00 PM", "Osborne", "@Cherokees", "T 7-7", "", ""),
         new Event ("Sun July 24", "1:00 PM", "South Cobb", "Cobb Angels", "W 4-1", "", ""),
         new Event ("Sun July 31", "11:00 AM", "Maynard Jackson", "ABC", "W 9-7", "", ""),
@@ -21,19 +21,19 @@ var games2022 = [
         new Event ("Sun August 7", "1:00 PM", "Ward Park", "@Midtown Magic", "W 12-0", "", ""),
         new Event ("Sun August 14", "12:00 PM", "South Gwinett", "@Squeaks", "L 6-2", "", ""),
 
-        new Event ("Sat Aug 20", "1:15 PM", "Lake Point", "Cobb Angels", "W 14-9", "Playoff Round 1"),
-        new Event ("Sat Aug 20", "4:00 PM", "Lake Point", "@Cobb Angels", "W 12-4", "Playoff Round 1"),
-        new Event ("Sat Aug 27", "1 PM", "South Gwinett", "Outlaws", "W 4-1", "Playoff Semi-Final"),
-        new Event ("Sat Aug 27", "4 PM", "South Gwinett", "@Outlaws", "W 6-2", "Playoff Semi-Final"),
-        new Event ("Sat Sep 10", "12 PM", "Osborne", "@Dragons", "L 1-0", "Championship"),
-        new Event ("Sun Sep 11", "12 PM", "Ward Park", "Dragons", "L 6-2", "Championship"),
+        new Event ("Sat Aug 20", "1:15 PM", "Lake Point", "Cobb Angels", "W 14-9", "Playoff Round 1", ""),
+        new Event ("Sat Aug 20", "4:00 PM", "Lake Point", "@Cobb Angels", "W 12-4", "Playoff Round 1", ""),
+        new Event ("Sat Aug 27", "1 PM", "South Gwinett", "Outlaws", "W 4-1", "Playoff Semi-Final", ""),
+        new Event ("Sat Aug 27", "4 PM", "South Gwinett", "@Outlaws", "W 6-2", "Playoff Semi-Final", ""),
+        new Event ("Sat Sep 10", "12 PM", "Osborne", "@Dragons", "L 1-0", "Championship", ""),
+        new Event ("Sun Sep 11", "12 PM", "Ward Park", "Dragons", "L 6-2", "Championship", ""),
 
-        new Event ("Sat Dec 3", "11 AM", "Lake Point", "Phantoms", "W 14-1", "Santa Shuffle"),
-        new Event ("Sat Dec 3", "2 PM", "Lake Point", "@Reds", "T 10-10", "Santa Shuffle"),
-        new Event ("Sat Dec 3", "11 AM", "Lake Point", "@Dragons", "W 10-8", "Santa Shuffle"),
+        new Event ("Sat Dec 3", "11 AM", "Lake Point", "Phantoms", "W 14-1", "Santa Shuffle", ""),
+        new Event ("Sat Dec 3", "2 PM", "Lake Point", "@Reds", "T 10-10", "Santa Shuffle", ""),
+        new Event ("Sat Dec 3", "11 AM", "Lake Point", "@Dragons", "W 10-8", "Santa Shuffle", ""),
         new Event ("Sat Dec 3", "2 PM", "Lake Point", "Squeaks", "W 11-1", "Santa Shuffle Championship", ""),
 
-        new Event ("Sun Apr 2", "12 PM", "2023 Opening Day", "TBD", "", "2023 Opening Day")
+        new Event ("Sun Apr 2", "12 PM", "2023 Opening Day", "TBD", "", "2023 Opening Day", "")
 
 
 ];
