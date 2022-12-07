@@ -31,7 +31,7 @@ var games2022 = [
         new Event ("Sat Dec 3", "11 AM", "Lake Point", "Phantoms", "W 14-1", "Santa Shuffle"),
         new Event ("Sat Dec 3", "2 PM", "Lake Point", "@Reds", "T 10-10", "Santa Shuffle"),
         new Event ("Sat Dec 3", "11 AM", "Lake Point", "@Dragons", "W 10-8", "Santa Shuffle"),
-        new Event ("Sat Dec 3", "2 PM", "Lake Point", "Squeaks", "W 11-1", "Santa Shuffle Championship"),
+        new Event ("Sat Dec 3", "2 PM", "Lake Point", "Squeaks", "W 11-1", "Santa Shuffle Championship", ""),
 
         new Event ("Sun Apr 2", "12 PM", "2023 Opening Day", "TBD", "", "2023 Opening Day")
 
