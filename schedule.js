@@ -28,12 +28,12 @@ var games2022 = [
         new Event ("Sat Sep 10", "12 PM", "Osborne", "@Dragons", "L 1-0", "Championship"),
         new Event ("Sun Sep 11", "12 PM", "Ward Park", "Dragons", "L 6-2", "Championship"),
 
-        new Event ("Sat Dec 3", "11 AM", "Lake Point", "Phantoms", "W 14-1", "", "Santa Shuffle"),
-        new Event ("Sat Dec 3", "2 PM", "Lake Point", "@Reds", "T 10-10", "", "Santa Shuffle"),
-        new Event ("Sat Dec 3", "11 AM", "Lake Point", "@Dragons", "W 10-8", "", "Santa Shuffle"),
-        new Event ("Sat Dec 3", "2 PM", "Lake Point", "Squeaks", "W 11-1", "", "Santa Shuffle Championship"),
+        new Event ("Sat Dec 3", "11 AM", "Lake Point", "Phantoms", "W 14-1", "Santa Shuffle"),
+        new Event ("Sat Dec 3", "2 PM", "Lake Point", "@Reds", "T 10-10", "Santa Shuffle"),
+        new Event ("Sat Dec 3", "11 AM", "Lake Point", "@Dragons", "W 10-8", "Santa Shuffle"),
+        new Event ("Sat Dec 3", "2 PM", "Lake Point", "Squeaks", "W 11-1", "Santa Shuffle Championship"),
 
-        new Event ("Sun Apr 2", "12 PM", "2023 Opening Day", "2023 Opening Day", "", "2023 Opening Day")
+        new Event ("Sun Apr 2", "12 PM", "2023 Opening Day", "TBD", "", "2023 Opening Day")
 
 
 ];
