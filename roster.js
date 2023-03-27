@@ -296,6 +296,46 @@ class Roster
             new Player ("Brad Jahnke", "Jahnke", "45", "P", "", "R", "R", "", "")
 
             ];
+
+
+            this.players2023 = [
+            // 2003
+            new Player ("Edwin Marcial", "Marcial", "19", "2B/3B", "Miami, FL", "R", "S", "When Doves Cry - Prince", "images/players/19.jpg"),
+            
+            // 2014
+            new Player ("Rob Wodarczyk", "Wodarczk", "2", "OF", "Kernersville, NC", "R", "S", "", ""),
+
+            //2015
+            new Player ("Sean Lennox", "Lennox", "16", "P", "Norcross, GA", "R", "R", "Givin the Dog a Bone - AC/DC", "images/players/16.jpg"),
+            new Player ("James Little", "Little", "3", "C/OF/P", "Farmers Branch, TX", "R", "R", "", "Shades of Gray - Robert Earl Keen"),
+
+            // new as of 2017
+            new Player ("LeCorey Johnson", "Johnson", "4", "SS/3B", "Georgia", "R", "R", "", ""),
+
+            // new as of 2018
+            new Player ("Spencer Middleton", "Middleton", "1", "CF/P", "Georgia", "R", "R", "", ""),
+            new Player ("Mathew Powell", "Powell", "28", "P/1B", "", "L", "L", "", ""),
+
+            // new for 2020
+            new Player ("Eric Jordan", "Jordan", "11", "IF/OF", "", "R", "S", "", ""),
+            new Player ("Jah-Neel Warner", "Warner", "8", "OF", "", "R", "R", "", ""),
+            new Player ("Mathew Connelly", "Connelly", "27", "IF/P", "", "R", "R", "", ""),
+            new Player ("Ryan Powell", "Powell", "40", "C/OF", "", "R", "R", "", ""),
+            new Player ("Jason Rogers", "Rogers", "29", "1B/OF", "", "R", "R", "", ""),
+            new Player ("Mason Colquitt", "Colquitt", "41", "P", "", "L", "L", "", ""),
+
+            // new for 2021
+            new Player ("Milton Adorno", "Adorno", "26", "OF/1B", "", "R", "R", "", ""),
+            new Player ("Scott Miller", "Miller", "5", "OF", "", "R", "R", "", ""),
+
+            // new for 2022
+            new Player ("Kevin Echeveria", "Echeveria", "18", "C", "", "R", "R", "", ""),
+            new Player ("Luis Garcia", "Garcia", "13", "P", "", "R", "R", "", ""),
+
+            
+            new Player ("Brad Jahnke", "Jahnke", "45", "P", "", "R", "R", "", "")
+
+            ];
         
         
     }
@@ -303,7 +343,7 @@ class Roster
     getRoster()
     {
         debug ("returning roster...");
-        return (this.players2022);
+        return (this.players2023);
     }
     
 }
