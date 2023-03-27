@@ -4,6 +4,10 @@ var debug = require ('./debug');
 var games2023 = [
 
         // last column is a url link that links back from the date - first column
+
+        //2022
+        new Event ("Sun Sep 11", "3 PM", "Osborne", "Dragons", "L 6-2", "Championship", ""),
+        //2023
         new Event ("Sun April 2", "12:00 PM", "South Gwinett", "Roccos", "", "", ""),
         new Event ("Sun April 16", "1:00 PM", "South Gwinett", "Squeaks", "", "", ""),
         new Event ("Sun April 23", "1:00 PM", "South Cobb", "@Cobb Angels", "", "", ""),
@@ -36,7 +40,7 @@ var games2022 = [
         new Event ("Sat Aug 27", "1 PM", "South Gwinett", "Outlaws", "W 4-1", "Playoff Semi-Final", ""),
         new Event ("Sat Aug 27", "4 PM", "South Gwinett", "@Outlaws", "W 6-2", "Playoff Semi-Final", ""),
         new Event ("Sat Sep 10", "12 PM", "Osborne", "@Dragons", "L 1-0", "Championship", ""),
-        new Event ("Sun Sep 11", "12 PM", "Ward Park", "Dragons", "L 6-2", "Championship", ""),
+        new Event ("Sun Sep 11", "3 PM", "Osborne", "Dragons", "L 6-2", "Championship", ""),
 
         new Event ("Sat Dec 3", "11 AM", "Lake Point", "Phantoms", "W 14-1", "Santa Shuffle", ""),
         new Event ("Sat Dec 3", "2 PM", "Lake Point", "@Reds", "T 10-10", "Santa Shuffle", ""),
