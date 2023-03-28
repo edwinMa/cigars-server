@@ -300,7 +300,7 @@ class Roster
 
             this.players2023 = [
             // 2003
-            new Player ("Edwin Marcial", "Marcial", "19", "2B/3B", "Miami, FL", "R", "S", "When Doves Cry - Prince", "images/players/19.jpg"),
+            new Player ("Edwin Marcial", "Marcial", "19", "2B/3B", "Miami, FL", "R", "S", "Genius of Love - Tom Tom Club", "images/players/19.jpg"),
             
             // 2014
             new Player ("Rob Wodarczyk", "Wodarczk", "2", "OF", "Kernersville, NC", "R", "S", "", ""),
@@ -322,7 +322,6 @@ class Roster
             new Player ("Mathew Connelly", "Connelly", "27", "IF/P", "", "R", "R", "", ""),
             new Player ("Ryan Powell", "Powell", "40", "C/OF", "", "R", "R", "", ""),
             new Player ("Jason Rogers", "Rogers", "29", "1B/OF", "", "R", "R", "", ""),
-            new Player ("Mason Colquitt", "Colquitt", "41", "P", "", "L", "L", "", ""),
 
             // new for 2021
             new Player ("Milton Adorno", "Adorno", "26", "OF/1B", "", "R", "R", "", ""),
