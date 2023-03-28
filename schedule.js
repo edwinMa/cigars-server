@@ -6,7 +6,7 @@ var games2023 = [
         // last column is a url link that links back from the date - first column
 
         //2022
-        new Event ("Sun Sep 11", "3 PM", "Osborne", "Dragons", "L 6-2", "Championship", ""),
+        new Event ("Sat Dec 3", "2 PM", "Lake Point", "Squeaks", "W 11-1", "Santa Shuffle Championship", ""),
         //2023
         new Event ("Sun April 2", "12:00 PM", "South Gwinett", "Roccos", "", "", ""),
         new Event ("Sun April 16", "1:00 PM", "South Gwinett", "Squeaks", "", "", ""),
