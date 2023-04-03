@@ -8,7 +8,7 @@ var games2023 = [
         //2022
         new Event ("Sat Dec 3", "2 PM", "Lake Point", "Squeaks", "W 11-1", "Santa Shuffle Championship", ""),
         //2023
-        new Event ("Sun April 2", "12:00 PM", "South Gwinett", "Roccos", "", "", ""),
+        new Event ("Sun April 2", "1:00 PM", "South Gwinett", "Roccos", "W 12-1", "", ""),
         new Event ("Sun April 16", "1:00 PM", "South Gwinett", "Squeaks", "", "", ""),
         new Event ("Sun April 23", "1:00 PM", "South Cobb", "@Cobb Angels", "", "", ""),
         new Event ("Sun April 30", "2:00 PM", "Osborne", "Cherokees", "", "", "")
