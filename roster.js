@@ -330,9 +330,11 @@ class Roster
             // new for 2022
             new Player ("Kevin Echeveria", "Echeveria", "18", "C", "", "R", "R", "", ""),
             new Player ("Luis Garcia", "Garcia", "13", "P", "", "R", "R", "", ""),
+            new Player ("Brad Jahnke", "Jahnke", "45", "P", "", "R", "R", "", ""),
 
-            
-            new Player ("Brad Jahnke", "Jahnke", "45", "P", "", "R", "R", "", "")
+            new Player ("Jorge Oropeza", "Oropeza", "31", "IF", "", "R", "R", "", ""),
+            new Player ("Juan Camba", "Camba", "21", "C/3B", "", "R", "R", "", "")
+
 
             ];
         
