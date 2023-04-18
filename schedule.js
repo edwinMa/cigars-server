@@ -5,15 +5,28 @@ var games2023 = [
 
         // last column is a url link that links back from the date - first column
 
-        //2022
-        new Event ("Sat Dec 3", "2 PM", "Lake Point", "Squeaks", "W 11-1", "Santa Shuffle Championship", ""),
+        
         //2023
         new Event ("Sun April 2", "1:00 PM", "South Gwinett", "Roccos", "W 12-1", "", ""),
-        new Event ("Sun April 16", "1:00 PM", "South Gwinett", "Squeaks", "", "", ""),
+        new Event ("Sun April 16", "1:00 PM", "South Gwinett", "Squeaks", "PPD-Rain", "", ""),
         new Event ("Sun April 23", "1:00 PM", "South Cobb", "@Cobb Angels", "", "", ""),
-        new Event ("Sun April 30", "2:00 PM", "Osborne", "Cherokees", "", "", "")
+        new Event ("Sun April 30", "2:00 PM", "Osborne", "@Cherokees", "", "", ""),
+        new Event ("Sun May 7", "4:00 PM", "South Gwinett", "@Outlaws", "", "", ""),
+        new Event ("Sun May 21", "1:00 PM", "Berkmar", "Black Sox", "", "", ""),
+        new Event ("Sun June 4", "12:00 PM", "South Gwinett", "@MMidtown Magic", "", "", ""),
+        new Event ("Sun June 11", "1:30 PM", "Ward Park", "Internacional Punishers", "", "", ""),
+        new Event ("Sun June 18", "10:00 AM", "Lakeside", "Cigars", "", "", ""),
+        new Event ("Sun June 25", "4:00 PM", "South Cobb", "Cobb Angels", "", "", ""),
+        new Event ("Sun July 2", "1:00 PM", "Lakeside", "Giants", "", "", ""),
+        new Event ("Sun July 9", "2:00 PM", "Osborne", "@Cherokees18", "", "", ""),
+        new Event ("Sun July 16", "1:00 PM", "Lakeside", "Cherokees", "", "", ""),
+        new Event ("Sun July 23", "1:00 PM", "Berkmar", "Midtown Magic", "", "", ""),
+        new Event ("Sun July 30", "1:30 PM", "Osborne", "@Internacional Punishers", "", "", ""),
+        new Event ("Sun August 6", "12:00 PM", "South Gwinett", "@B Black Sox", "", "", ""),
+        new Event ("Sun August 13", "1:00 PM", "Lakeside", "@B Roccos", "", "", "")
 
 ];
+
 
 var games2022 = [
         // last column is a url link that links back from the date - first column
