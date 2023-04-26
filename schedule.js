@@ -9,7 +9,7 @@ var games2023 = [
         //2023
         new Event ("Sun April 2", "1:00 PM", "South Gwinett", "Roccos", "W 12-1", "", ""),
         new Event ("Sun April 16", "1:00 PM", "South Gwinett", "Squeaks", "PPD-Rain", "", ""),
-        new Event ("Sun April 23", "1:00 PM", "South Cobb", "@Cobb Angels", "", "", ""),
+        new Event ("Sun April 23", "1:00 PM", "South Cobb", "@Cobb Angels", "L 14-8", "", ""),
         new Event ("Sun April 30", "2:00 PM", "Osborne", "@Cherokees", "", "", ""),
         new Event ("Sun May 7", "4:00 PM", "South Gwinett", "@Outlaws", "", "", ""),
         new Event ("Sun May 21", "1:00 PM", "Berkmar", "Black Sox", "", "", ""),
