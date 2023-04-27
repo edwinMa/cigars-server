@@ -332,8 +332,15 @@ class Roster
             new Player ("Luis Garcia", "Garcia", "13", "P", "", "R", "R", "", ""),
             new Player ("Brad Jahnke", "Jahnke", "45", "P", "", "R", "R", "", ""),
 
+            // new for 2023
+            /* Jorge injured ankle again after game 1 not playing with us
             new Player ("Jorge Oropeza", "Oropeza", "31", "IF", "", "R", "R", "", ""),
-            new Player ("Juan Camba", "Camba", "21", "C/3B", "", "R", "R", "", "")
+            */
+            new Player ("Juan Camba", "Camba", "21", "C/3B", "", "R", "R", "", ""),
+            new Player ("Joshhua Sanmarrero", "Sanmarrero", "XX", "IF", "", "R", "R", "", ""),
+            new Player ("Brian Carruyo", "Carruyo", "XX", "P", "", "R", "R", "", "")
+
+
 
 
             ];
